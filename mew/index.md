@@ -182,3 +182,69 @@ moderators of the community can ensure the online group stays civil and
 organized. You can also filter by types of posts so you can see only what you’re
 interested in seeing (e.g. news, events, etc). Larger events can stay pinned at
 the top of the community feed so that everyone in the community sees it.
+
+## Design Process
+
+### Design Idea
+
+We decided to focus on designing a screen to display and interact with events in
+the app, as this was one of the main purposes of our app. After exploring
+various design ideas, we landed on a dynamic events page where each event is
+represented by a “bubble” on the screen and the size of the bubble corresponds
+to the user’s predicted interest in the event. If the predicted interest does
+not correctly represent the user’s actual interest, they can resize the “bubble”
+and the app will remember that information when making predictions about their
+interests in the future. Clicking on a bubble will take them to a page with more
+details, where they can also register for the event.
+
+The primary benefit of implementing this design is that it is distinctly unique
+from current friend-making apps, and completely avoids the swiping mechanism of
+dating apps, which can be confusing and error-prone. Secondly, it appeals to our
+younger demographic by offering a sleek and modern user experience, catering to
+their preferences for intuitive digital interactions. Furthermore, the app's
+ability to remember previous interests allows it to adapt to changing social
+needs, ensuring long-term relevance. Because the bubbles offer a spectrum of
+interest levels (as opposed to the binary yes/no of dating apps), the
+interest-predicting algorithm can be far more accurate to the user than a simple
+dataset of yes’s and no’s.
+
+We created our sketch models with pencils/pens and paper/stickies because we had
+a lot of design ideas, and we wanted to explore all of them quickly. We decided
+to individually sketch a few designs each, which let us better view and
+understand the range of ideas much faster than if we had chosen to create
+something like a 3D “interactable” paper model of a phone. The efficiency of
+this brainstorming also allowed us to quickly cut out ideas as well.
+
+Link to sketches:
+https://drive.google.com/drive/folders/1Ym3gqsWg7vn6HRZOnQ9eyp0pqVya5FXD?usp=share_link
+
+### Feature
+
+We chose to focus on the group chat feature of our app. The idea is to create
+something that allows users to engage with multiple people simultaneously, to
+promote new connections and a sense of community. We first laid out some goals
+we all wanted to achieve with our designs. The main goal was to create a design
+that was convenient for users to reach out to others, coordinate plans, and
+share updates. Another aspect we collectively agreed to design for was privacy
+through limited messaging; we imagined many users would only feel comfortable
+receiving messages from people they know or expect to see at an event. We also
+felt that group chats provided users an opportunity for personalization; our
+designs should be customizable to fit the users’ interests and desires for
+self-expression.
+
+To quickly explore a variety of designs, we used paper and pencil prototyping.
+Each of us individually took 5-10 minutes to sketch out ideas for the design and
+layout of the group chat feature. After that, we got together, shared our ideas,
+and discussed each idea in depth. This allowed us to narrow down to the one
+design we wanted to move forward with: a dynamic, “bubble”-centric design
+(Figure 1). We chose this because it felt consistent with the design we wanted
+for the main page, it is inherently eye-catching and interactive, and it is
+unique enough to clearly distinct our idea from the dating app space. The
+default composition of a group chat on the main group chat page is a large
+center bubble for the groupchat with the event name in the middle. The
+surrounding bubbles represent the members within the group chat. Tapping the
+group chat bubble will take you to the actual group chat page, in which you can
+read and send messages.
+
+Link to sketches:
+https://drive.google.com/drive/folders/1d3eafclfbWz4SXFMYBDaOrg16KJOFr5d?usp=share_link
