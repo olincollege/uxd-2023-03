@@ -17,3 +17,9 @@ phases:
         url: /phase-1/consent-narrative/
       - title: "Inspirational Designs"
         url: /phase-1/inspirational-designs/
+  - title: "Phase 2"
+    children:
+      - title: "Design Report"
+        url: /phase-2/design-report/
+      - title: "Feature Idea Description"
+        url: /phase-2/feature-idea-description/

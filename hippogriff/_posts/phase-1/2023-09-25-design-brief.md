@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Design Brief"
-date:   2023-10-20 16:09:00 -0400
+date:   2023-09-25 00:00:00 -0400
 permalink: /phase-1/design-brief
 categories: phase-1
 excerpt: "We're helping older adults use technology; here's why and how"
