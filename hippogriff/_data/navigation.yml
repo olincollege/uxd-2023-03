@@ -11,8 +11,8 @@ main:
 phases:
   - title: "Phase 1"
     children:
-      - title: "Project Brief"
-        url: /phase-1/project-brief/
+      - title: "Design Brief"
+        url: /phase-1/design-brief/
       - title: "Consent Narrative"
         url: /phase-1/consent-narrative/
       - title: "Inspirational Designs"
