@@ -35,7 +35,24 @@ minimal_mistakes_skin: air
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 
+# Minimal Mistakes settings
+breadcrumbs: true
+category_archive:
+  type: liquid
+  path: /categories/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sidebar:
+        nav: "phases"
+
+
+include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

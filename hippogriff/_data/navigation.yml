@@ -1,0 +1,19 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Phase 1"
+    url: /categories/#phase-1
+  - title: "Phase 2"
+    url: /categories/#phase-2
+  - title: "Phase 3"
+    url: /categories/#phase-3
+
+phases:
+  - title: "Phase 1"
+    children:
+      - title: "Project Brief"
+        url: /phase-1/project-brief/
+      - title: "Consent Narrative"
+        url: /phase-1/consent-narrative/
+      - title: "Inspirational Designs"
+        url: /phase-1/inspirational-designs/
