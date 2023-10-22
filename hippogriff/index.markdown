@@ -9,12 +9,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: images/hippogriff.png
   actions:
-    - label: "Project Brief"
-      url: "project-brief"
+    - label: "Start here"
+      url: "phase-1/design-brief"
 excerpt: "Welcome to the Team Hippogriff UXD website."
   
 ---
 
 # Pages
 
-- [Project Brief](project-brief)
+See [this page](categories) for a listing.
