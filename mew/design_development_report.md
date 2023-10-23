@@ -1,5 +1,6 @@
+# Phase 2: Design Development
 
-# Design Development Report
+## Design Development Report:
 
 **What is your design?**
 
@@ -8,15 +9,15 @@ The current reality for remote workers often involves extended periods of solitu
 opportunities to cultivate connections through their workplace, remote young professionals must seek companions who are at a similar stage in life 
 through other methods. One such method is using dating apps to make friends, which confuses those who use these platforms exclusively for romantic 
 purposes. Our app offers a solution by providing a dedicated platform for individuals seeking new connections within their city, with an emphasis on 
-platonic relationships and shared experiences. We started our design process with individual sketches, which we then shared in a team meeting. After going 
+platonic relationships and shared experiences. We started our design process with 
+[individual sketches](https://drive.google.com/drive/folders/1Ym3gqsWg7vn6HRZOnQ9eyp0pqVya5FXD?usp=sharing), which we then shared in a team meeting. After going 
 through everyone’s designs, we discussed what we liked about them and chose a primary design to move forward with. We then took the style of that design and 
-created feature sketches of the chat function of our app. After sharing those sketches, we again chose one to move forward with and began implementing our 
-designs in Figma. While creating our designs in Figma, we began to decide on a color scheme and fonts and began to figure out the organization of all the elements 
-that needed to be part of our design. Our Figma can be accessed [here](https://www.figma.com/file/ah5c2ECtIDtREyY2t8G8or/UXD?type=design&node-id=1%3A2&mode=design&t=mj0mnKsVbMR9nuIN-1).
+created feature sketches of the [chat function of our app](https://drive.google.com/drive/folders/1d3eafclfbWz4SXFMYBDaOrg16KJOFr5d?usp=sharing). 
+After sharing those sketches, we again chose one to move forward with and began implementing [our designs in Figma](https://www.figma.com/file/ah5c2ECtIDtREyY2t8G8or/UXD?type=design&node-id=1%3A2&mode=design&t=mj0mnKsVbMR9nuIN-1). While creating our designs in Figma, we began to decide on a color scheme and fonts and began to figure out the organization 
+of all the elements that needed to be part of our design.
 
 **How does it work?**
-
-![Bubble Design](/mew/media/DQ_bubble_design.jpg)
+(Flow chart)
 Our app works by presenting users with potential social events happening near them. The user can cater the events they see to their interests by specifying 
 preferences, and select which events they want to attend. They then can join a chat with other users also interested in that event, allowing them to talk to 
 and hang out with people with similar passions. While other apps are limited only to “matching” people together, often resulting in no actual conversation besides 
