@@ -11,6 +11,7 @@ the style of the design we moved forward with. Once again, we shared our sketche
 to move forward with. 
 
 ## Storyboarding:
+![Wireframe Image](/mew/media/App_Wireframe.jpg)
 After choosing designs to move forward with, we began to storyboard the actual interaction flow of our app. We had decided on the key features of the app, but we weren't
 sure how they'd all fit together. In the image, you can see our workflow of interactions the user could have with the app. 
 First, they need to log in or sign up for the app. If you are signing up for the first time, you then need to make a profile and you can go through a tutorial, explaining 
@@ -38,7 +39,7 @@ After sharing those sketches, we again chose one to move forward with and began 
 of all the elements that needed to be part of our design.
 
 **How does it work?**
-
+![App Interaction Flow](/mew/media/Interaction_Flow.jpg)
 Our app works by presenting users with potential social events happening near them. The user can cater the events they see to their interests by specifying 
 preferences, and select which events they want to attend. They then can join a chat with other users also interested in that event, allowing them to talk to 
 and hang out with people with similar passions. While other apps are limited only to “matching” people together, often resulting in no actual conversation besides 
