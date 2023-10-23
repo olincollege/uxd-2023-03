@@ -1,7 +1,9 @@
 # Phase 2: Design Development
 
 ## Ideation:
-We started this phase by brainstorming a bunch of features we thought were crucial to the app's development. 
+We started this phase by brainstorming a bunch of features we thought were crucial to the app's development. ![Brainstorming Image](mew/media/Brainstorm.jpg). In the image, 
+the features are grouped by similarities--we then assigned each person a group of features to create quick paper sketches of. 
+
 ## Design Development Report:
 
 **What is your design?**
