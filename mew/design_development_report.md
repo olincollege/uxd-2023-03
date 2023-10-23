@@ -16,7 +16,7 @@ that needed to be part of our design. Our Figma can be accessed [here](https://w
 
 **How does it work?**
 
-!(
+![Bubble Design](/mew/media/DQ_bubble_design.jpg)
 Our app works by presenting users with potential social events happening near them. The user can cater the events they see to their interests by specifying 
 preferences, and select which events they want to attend. They then can join a chat with other users also interested in that event, allowing them to talk to 
 and hang out with people with similar passions. While other apps are limited only to “matching” people together, often resulting in no actual conversation besides 
