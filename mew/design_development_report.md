@@ -1,5 +1,7 @@
 # Phase 2: Design Development
 
+## Ideation:
+We started this phase by brainstorming a bunch of features we thought were crucial to the app's development. 
 ## Design Development Report:
 
 **What is your design?**
