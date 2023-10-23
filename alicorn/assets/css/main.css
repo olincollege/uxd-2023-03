@@ -29,7 +29,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+.center {
+	border: 5px solid;
+	display: flex;
+	height: 150px;
+	align-items: center;
+	}
+
+	body {
 	line-height: 1;
 }
 
@@ -2502,11 +2509,12 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		align-items: center;
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
-			vertical-align: middle;
+			align-items: center;
 		}
 
 		ul.actions.special {
