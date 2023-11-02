@@ -67,9 +67,9 @@ Lastly, a lot of the experiences people shared with us fall into clichés about 
 
 ## Effort Chart
 
-{% include figure image_path="/images/design-brief/effort-benefit.png" alt="Effort Chart" caption="" %}
+![Effort Chart](../images/design-brief/effort-benefit.png)
 
-{% include figure image_path="/images/design-brief/person-bubbles.jpg" alt="Our names on bubbles" caption="" %}
+![Person bubbles](../images/design-brief/person-bubbles.jpg)
 
 ## Artifacts
 
@@ -78,11 +78,11 @@ Lastly, a lot of the experiences people shared with us fall into clichés about 
 This representation is not super conducive to drawing succinct conclusions, but it was a very useful process for helping us digest the interviews and consider which questions split people on various opinions.
 
 
-{% include figure image_path="/images/design-brief/spectrum-diagram.png" alt="Spectrum Diagram" caption="" %}
+![Spectrum Diagram](../images/design-brief/spectrum-diagram.png)
 
 ### Our Persona
 
-{% include figure image_path="/images/design-brief/persona.png" alt="Familiar Fran Persona" caption="" %}
+![Persona](../images/design-brief/persona.png)
 
 ### Consent Narrative
 
