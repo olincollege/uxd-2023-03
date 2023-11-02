@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml" rel="self" type="application/atom+xml" /><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/" rel="alternate" type="text/html" /><updated>2023-11-02T15:16:32+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml</id><title type="html">Team Hippogriff</title><subtitle>Website for UXD fall 2023 team Hippogriff designing software to help older adults with technology.</subtitle><entry><title type="html">Feature Idea Description</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/feature-idea-description" rel="alternate" type="text/html" title="Feature Idea Description" /><published>2023-10-16T15:17:00+00:00</published><updated>2023-10-16T15:17:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/feature-idea-description</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/feature-idea-description">&lt;h2 id=&quot;the-feature&quot;&gt;The Feature&lt;/h2&gt;
+
+&lt;p&gt;Display information that is relevant to what the user is doing.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-we-chose-it&quot;&gt;Why We Chose It&lt;/h2&gt;
+
+&lt;p&gt;In any medium we develop, it’s vital that users can access and use information relevant to their tasks.&lt;/p&gt;
+
+&lt;p&gt;This is important because users open a new app or website with a specific task in mind. For a cheat sheet to be effective, it must assist them in achieving that particular goal and reduce any confusion in their experience.&lt;/p&gt;
+
+&lt;p&gt;If we provide cheat sheets, they should either contain enough information to cover most use cases or they should be tailored to the specific actions the user currently wants to take. We can intuit the user’s desires through pattern matching (after selecting the title and mousing around, most users want to change the font), or we can provide a simple search bar with common task suggestions.&lt;/p&gt;
+
+&lt;p&gt;For example, if we have an AI sidebar assistant, it should not try to help you write a letter (eg. Microsoft’s discontinued Clippy) every time you start typing in a document. Unwanted information popping up on screen spoils the point of trying to make software less complicated.&lt;/p&gt;
+
+&lt;p&gt;Our feature needs to strike the right balance in the information we offer: it should be both relevant and unobtrusive to provide a streamlined and user-friendly experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-potential-implementation&quot;&gt;A Potential Implementation&lt;/h2&gt;
+
+&lt;p&gt;One way this feature could be implemented on an iPad is with smart tooltips that point to the UI elements that the user should click in order. The tooltips can be activated with a small button that triggers a menu where users can ask a question or browse suggested features.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/feature-idea-description/1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/feature-idea-description/2.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/feature-idea-description/3.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;</content><author><name></name></author><category term="phase-2" /><summary type="html">One of our core featuers is that our app will display information that&apos;s relevant to what the user is doing. Here&apos;s how we figured that out.</summary></entry><entry><title type="html">Design Brief</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/design-brief" rel="alternate" type="text/html" title="Design Brief" /><published>2023-09-25T04:00:00+00:00</published><updated>2023-09-25T04:00:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/design-brief</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/design-brief">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In today’s rapidly evolving technological landscape, older adults who didn’t grow up with technology often find it increasingly challenging to integrate software into their daily routines. Before diving into the specific challenges faced by this user group, let’s introduce Deborah, who is the poster-child of our design brief.&lt;/p&gt;
+
+&lt;p&gt;Deborah, an 84-year-old resident of an assisted care facility, faces challenges with many software applications. While she finds it difficult to manage her emails or video call her grandchildren, she is proficient with Microsoft Word. Years ago, her grandson taught her the steps: double-click the ‘W’ icon, start a new document, type, save or print. She follows these steps religiously.&lt;/p&gt;
+
+&lt;p&gt;This routine works perfectly for Deborah when creating text documents. However, when confronted with a new task, like paying off her credit card, she’s at a loss. While many younger individuals navigate banking apps with ease, Deborah finds the signifiers and affordances of these newer cryptic interfaces foreign. She attempts to access her bank online but gets stuck at the homepage, unsure of how to log in. Despite her confidence with Word, the symbols and widgets on her bank’s interface leave her bewildered and struggling to pay off her card.&lt;/p&gt;
+
+&lt;p&gt;Many older adults are familiar with a select group of apps and tend to use them in consistent ways. However, they often struggle with new apps or computer interfaces because these designs aren’t tailored to their experiences. Designers often assume users recognize common tech symbols, like the three horizontal lines indicating a menu. But for individuals like Deborah, these symbols are unfamiliar. &lt;strong&gt;The issue isn’t poor design; it’s that the design doesn’t resonate with older adults’ frame of reference.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem--impact&quot;&gt;The Problem &amp;amp; Impact&lt;/h2&gt;
+
+&lt;p&gt;Technology is now integral to daily life, including for older adults who once managed fine without it. Yet, from communication to digital banking and health apps, there are assumed universal signifiers and affordances that are unfamiliar to many older adults, creating a disconnect between older users and usability.&lt;/p&gt;
+
+&lt;p&gt;Previously, we described our goal as helping introduce older adults to new technology which might better satisfy their needs. This notion was further supported after interviews with our user group, as we found that** many essential software applications, such as texting, health tracking, and finance, become inaccessible** to them–particularly when interfaces change or introduce unfamiliar features. With our new findings, we are narrowing our scope from simplifying all new technology to making essential software easier to use, such that minimal prior experience or memory is needed to navigate necessary interfaces.&lt;/p&gt;
+
+&lt;p&gt;If we are able to alleviate these barriers of confusion, we believe older adults will feel less anxiety when interacting with software needed for daily tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-our-users-feel&quot;&gt;How Our Users Feel&lt;/h2&gt;
+
+&lt;p&gt;Many older adults feel like technology is a useful tool but are frustrated when they can’t figure out how to achieve what they need. Some of the people we interviewed will brute force their way to a solution while others call trusted family members. We found that many older adults become so frustrated they give up while others are scared to push buttons for fear of “messing up.” Here is another illustrative story:&lt;/p&gt;
+
+&lt;p&gt;Eleanor is a grandparent who lives alone and takes weekly piano lessons over Google Meet. She has an app on her phone which she uses every day as a metronome and a tuner. Even though it’s not an intuitive interface, she knows how to use it because she uses it so frequently. She reads a physical newspaper each morning. One day, she finds a clipping from the paper that she wants to send to her piano teacher. She takes a picture with her phone, but she doesn’t know what to do next. She normally communicates with her teacher over email, which she uses on her computer. How should she attach the picture to the email, and how should she get the picture from her phone to her computer in the first place? Eleanor does what she always does in this situation: she calls her daughter Pauline.&lt;/p&gt;
+
+&lt;p&gt;Pauline lives 20 minutes away and comes over to Eleanor’s house every couple weeks to help Eleanor do something on her computer—it happens just rarely enough that Eleanor can’t remember the details of how to do it, and just rarely enough that it’s easiest to ask Pauline to come over every time. Pauline has created a set of instructions for each new task—scanning a document, attaching a file, launching her tax software, navigating to the Documents folder—which are accumulating on Eleanor’s desk as an embarrassing reminder of how many times she has had to ask for help.&lt;/p&gt;
+
+&lt;p&gt;We’ve gathered some notable quotes from several of our interactions thus far:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Our generation knows that we want to do something but we don’t know how to do it and we don’t know how to go about finding out how to do it.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Once I get it, I know how to use it.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Why does my bank change its website every 3 years? I learn where everything is and then they change everything and I don’t know how to pay my bills.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;[The usability of technology] should be progressing with me, not progressing beyond me.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;I often see symbols that I know are telling me something, but I have no idea what it is. It makes me feel stupid.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Although these are direct quotes, they nonetheless reflect thoughts that we heard from multiple individuals.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-stakeholders&quot;&gt;The Stakeholders&lt;/h2&gt;
+
+&lt;p&gt;Our team identified 3 sets of people groups who play a significant role in the problem we pinpointed. They are as follows:&lt;/p&gt;
+
+&lt;h3 id=&quot;older-adults-65-who-struggle-with-software&quot;&gt;Older Adults (65+) Who Struggle with Software&lt;/h3&gt;
+
+&lt;p&gt;These are our primary stakeholders and the central focus of our design project. This age group encounters the most pronounced usability challenges with technology. Many often find it difficult to adapt to new technological advancements, leading to feelings of isolation, confusion, and frustration.&lt;/p&gt;
+
+&lt;h3 id=&quot;tech-helpers&quot;&gt;Tech Helpers&lt;/h3&gt;
+
+&lt;p&gt;These individuals are the primary resources older adults turn to with tech-related queries. While they represent a diverse demographic, they are most frequently the children of older adults, caregivers, and IT support personnel. They often feel burdened or frustrated with having to repeatedly help their older adults with tech issues they see as trivial. They are also the answer to the existential question of our product: if older adults aren’t browsing for new apps to improve their experience, how will they adopt our software? Tech helpers are the ones who will introduce our product to the older adults who will use it to become more independent.&lt;/p&gt;
+
+&lt;h3 id=&quot;people-who-interact-with-older-adults-through-tech&quot;&gt;People Who Interact with Older Adults Through Tech&lt;/h3&gt;
+
+&lt;p&gt;This is the rest of the Whole Wide World that relies on digital tools to make appointments, send and receive documents, and otherwise communicate with older adults. Allowing older adults to participate fully and efficiently will make the lives easier for people who want to use technology for everything and don’t want to leave older adults behind.&lt;/p&gt;
+
+&lt;h2 id=&quot;shortcomings&quot;&gt;Shortcomings&lt;/h2&gt;
+
+&lt;p&gt;A major shortcoming of our project is that we were only given a week to conduct our user interviews. As such, we only talked to older adults we already know who live in the US. We think the people we talked to are representative of a large proportion of older adults in the US, but we didn’t talk to enough people to understand the details of their varied experience. Moreover, the experiences people shared with us may be skewed by the fact that they are mostly family members or people who know us very well. For example, they may have omitted information about their situation or experience that they thought we already knew, or they might have tended to say what they thought we wanted to hear.&lt;/p&gt;
+
+&lt;p&gt;Lastly, a lot of the experiences people shared with us fall into clichés about how older adults experience technology. It is possible that their own experience is wound up in the stereotype, and they were more willing to share the parts of their stories that matched the stereotype which would prevent us from learning how they truly interact with technology in a way that is helpful to us.&lt;/p&gt;
+
+&lt;h2 id=&quot;effort-chart&quot;&gt;Effort Chart&lt;/h2&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-brief/effort-benefit.png&quot; alt=&quot;Effort Chart&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-brief/person-bubbles.jpg&quot; alt=&quot;Our names on bubbles&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;artifacts&quot;&gt;Artifacts&lt;/h2&gt;
+
+&lt;h3 id=&quot;spectrum-diagram&quot;&gt;Spectrum Diagram&lt;/h3&gt;
+
+&lt;p&gt;This representation is not super conducive to drawing succinct conclusions, but it was a very useful process for helping us digest the interviews and consider which questions split people on various opinions.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-brief/spectrum-diagram.png&quot; alt=&quot;Spectrum Diagram&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;our-persona&quot;&gt;Our Persona&lt;/h3&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-brief/persona.png&quot; alt=&quot;Familiar Fran Persona&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;consent-narrative&quot;&gt;Consent Narrative&lt;/h3&gt;
+
+&lt;p&gt;You can see our Consent Narrative &lt;a href=&quot;consent-narrative&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="phase-1" /><summary type="html">We&apos;re helping older adults use technology; here&apos;s why and how</summary></entry><entry><title type="html">Inspirational Designs</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/inspirational-designs" rel="alternate" type="text/html" title="Inspirational Designs" /><published>2023-09-22T22:32:00+00:00</published><updated>2023-09-22T22:32:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/inspirational-designs</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/inspirational-designs">&lt;p&gt;Because our user group is older adults (specifically adults who didn’t grow up with technology), it’s important for us to understand what makes existing software interfaces easy to use for this demographic. Through our experiences with older adults, including several user interviews, we’ve identified some software that older adults say they’re comfortable using on a regular basis. Here’s what we’ll take and drop from it.&lt;/p&gt;
+
+&lt;h2 id=&quot;list-of-inspirations&quot;&gt;List of Inspirations&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Plant identification apps&lt;/strong&gt;- enables the use of a familiar interface, the phone camera, to provide information that would be difficult to google.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Facebook&lt;/strong&gt;- This is an interface that many older adults use frequently and are therefore more comfortable with.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;- An intuitive search bar drives movement on the website. Although there’s a lot of intentional clutter for advertising purposes, older adults are comfortable searching for what they need and browsing the presented products.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Apple Notes&lt;/strong&gt;- A simple text editor that doesn’t overwhelm the user with styling options or complex features.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mayo Clinic&lt;/strong&gt;- This health website is popular with older adults both for being trustworthy and easy to navigate. While typing is certainly an option, buttons that search by the first letter of illnesses and symptoms are included as well.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Google Maps-&lt;/strong&gt; The purpose of the website or app is so well defined that there’s only one thing you would really want to do with it—find an address. The search bar appears right away and takes you where you want to go without a fuss.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zoom&lt;/strong&gt;- Similarly to Facebook, this is an application that many older adults were forced into using over the pandemic. As a result they gained familiarity with how it works. However, due to frequent updates, the several people we interviewed said they had trouble using it now because the user interface had changed since they last used it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local Newspaper Website&lt;/strong&gt; - The linear layout and categorization found on local newspaper websites present information in familiar, digestible chunks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smart Watch&lt;/strong&gt; - a small interface with only one or two options for what you can do on any given screen. Multiple older adults we interviewed use smart watches.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Apple Health Apps&lt;/strong&gt;- Connect directly to the Apple watch and send notifications through the larger display of the iPhone.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smart TVs&lt;/strong&gt;- much easier to understand compared to older TVs that require a streaming stick. A TV with integrated streaming services means both less actions are required to navigate to a desired program, and perhaps more importantly that a button can’t be pressed to change the video input and become stuck.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Solitaire&lt;/strong&gt;- A digitized version of a real game. Utilizes skeuomorphism by having realistic playing cards.** **&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kindle&lt;/strong&gt;- Kindle’s built-in dictionary and limited features shows how technology can provide immense value while maintaining minimal design.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iMessage&lt;/strong&gt;- With its large text display and clear separation of conversation threads, iMessage is a great example of how communicating through technology can be made easy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Superhuman&lt;/strong&gt; - Email application ultra-optimized for efficiency that reminds users how to do actions quickly as they are needed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Alexa&lt;/strong&gt;- Voice activation can allow older adults to command technology without the complicated barriers of screens and buttons.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Netflix&lt;/strong&gt;- Ideally a one stop shop for all streaming needs. The more that’s on one app the easier it is to find everything. This is becoming less of an advantage in recent years.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;individual-deep-dives&quot;&gt;Individual Deep Dives&lt;/h2&gt;
+
+&lt;h3 id=&quot;sam-on-superhuman&quot;&gt;Sam on Superhuman&lt;/h3&gt;
+
+&lt;p&gt;You probably haven’t heard of Superhuman, but they boast users at the helm of companies like Spotify, Netflix, Notion, Uber, and even Harvard; and that it saves teams 10,000,000 hours per year. Those are some bold claims. Especially when it costs $30/month – $360/year.&lt;/p&gt;
+
+&lt;p&gt;But, those companies are headed by young CEOs - Spotify’s Daniel Ek is a mere 40, Greg Peters guides Netflix with 49 hardy years of life experience, and Notion’s Ivan Zhao is a spring chicken at 35. None of those men are older adults– and Superhuman knows this. Superhuman is keyboard-driven (something we specifically noticed older adults struggle with), has a simple, icon-based user interface (another struggle we identified), and its iPad experience pales in comparison to its desktop interface.&lt;/p&gt;
+
+&lt;p&gt;But its design and user experience is slick as a bowling alley, and it seamlessly allows you to learn keyboard shortcuts to speed up your workflow.&lt;/p&gt;
+
+&lt;p&gt;C for compose. Simple enough. R for reply, gotcha. Command+K opens the (k)ommand bar, sure. Command+Shift+,(comma) to discard draft? Woah, what? But, don’t worry: hover over the trash icon and Superhuman reminds you:&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/superhuman-1.gif&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      Superhuman’s tooltips in action
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This comes back to our discovery that older adults have trouble working with the keyboard in general: rather than avoiding the keyboard and focusing purely on visual cues, Superhuman finds the perfect balance; showing the keyboard shortcut to those who want to know, and keeping a physical analogy (trash this draft = trash can). Also, this animation is super fast compared to normal hover tags, meaning it addresses the discovery that buttons aren’t always clear: hover over anything and (nearly) instantly get a text description. But, the magic really comes when you use the visual cue:&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/superhuman-2.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      C for cool, too?
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Superhuman reminds you of keyboard shortcuts when you &lt;em&gt;don’t&lt;/em&gt; use them, hinting you over time. This addresses another discovery of ours: when older adults don’t use things (features, shortcuts, menus, etc.), they forget. Superhuman solves this by reminding you.&lt;/p&gt;
+
+&lt;p&gt;Finally, Superhuman hits another of our other discoveries: older adults’ fondness of all-encompassing guides. Superhuman offers a &lt;a href=&quot;https://download.superhuman.com/Superhuman%20Keyboard%20Shortcuts.pdf&quot;&gt;giant PDF user guide&lt;/a&gt; with every single keyboard shortcut that can be printed and kept on a wall, so if you’re looking for a function, you never have to memorize it. We’ll keep these lessons in mind as we build.&lt;/p&gt;
+
+&lt;h3 id=&quot;kats-notes-about-apple-notes&quot;&gt;Kat’s Notes About Apple Notes&lt;/h3&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/apple-notes-1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      Hello world, 10-4
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Apple’s default notes app is a staple of the Apple Ecosystem. An undeniable factor that contributes to the default notes app’s popularity is exactly that, it’s the default software installed on iPhones, Macs, and iPads- a cult favorite of older adults. Being a default app also means that there are never any confusing or distracting pop-ups or banners for ads or subscription offers, all of which can be overwhelming and confusing for older users.&lt;/p&gt;
+
+&lt;p&gt;With this in mind, there are still some underlying design choices that make this app a better experience for older adults. The attractiveness of this app is that advanced features are mostly hidden away until needed.&lt;/p&gt;
+
+&lt;p&gt;Upon creating a new note, the keyboard pops up and the cursor immediately starts blinking. The first line is formatted with a recognizable title format (bold, larger font,) and acts as the title of the note. Without having to manually switch modes, all subsequent lines will be body text which, in most cases, is all that is ever needed. This simple and fundamental functionality covers the majority of use cases. Although more complex features are included, nothing further is needed to effectively use the app.&lt;/p&gt;
+
+&lt;p&gt;That’s not to say there aren’t well designed additional tools. There are several simple signifiers, intentionally colored with a noticeable yellow, at the top right of the screen.&lt;/p&gt;
+
+&lt;p&gt;Under the first icon, signified with the characters Aa, are standard formatting tools such as headings, bold text, bullets, etc. The next two icons, the checklist and table, don’t require any sort of submenu. Onced tapped they insert the desired element directly into the note. While the stylization of these elements isn’t customizable, it doesn’t need to be. Instead, the desired functions are accessed with minimal interaction. Menus that lead into other menus or submenus with an abundance of superfluous options were often cited in our interviews as stressful and frustrating. This minimalist approach cuts down on this issue significantly.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/aple-notes-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      Format undercover
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Furthermore, these first three icons correspond to the features that our users expressed they used the most. Specifically, the checklist is very popular for shopping and todo lists.&lt;/p&gt;
+
+&lt;p&gt;The file structure of the notes app takes a similar approach to simplicity that can be expanded into more functionality as needed. By default all notes are stored in a single folder. More folders can be created if the user wishes for more advanced organization, but understanding and organizing this isn’t needed to use the app. All notes are sorted in the sidebar by the date most recently edited. A search tool is also included in this sidebar which can easily be used to find specific notes.&lt;/p&gt;
+
+&lt;p&gt;This format means that old notes can be forgotten about without creating clutter while relevant notes stay at the top. Notes don’t need to be organized into file structures or notebooks or sections. Old notes don’t have to be deleted, new notes can just keep being created, and everything is still easy to find.&lt;/p&gt;
+
+&lt;p&gt;In our design work this semester we want to create a similar model of stripped, aesthetic, intuitive simplicity. We want to only include features that are important and we don’t want to present them in an overwhelming way. Although it could be a challenge, we want our application to be able to scale with our users in the same way that the Apple notes app works just as well for users who use advanced elements and formatting as it does for users who have no mental model of how that works and just start typing into a note.&lt;/p&gt;
+
+&lt;h3 id=&quot;kristin-on-kindle&quot;&gt;Kristin on Kindle&lt;/h3&gt;
+
+&lt;p&gt;We exist in an era where technology is defined by its endless features, making it easy for the user experience to take a backseat. This oversight becomes even more pronounced for older adults who might find themselves navigating an alien landscape with each new device. Yet, in this complex digital ecosystem, Amazon’s Kindle emerges as a rare example of thoughtful design.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/kindle-1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      K for Kindling, too?
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The first thing that strikes you about the Kindle is its refreshing simplicity. Unlike devices that overwhelm users with a multitude of functions (many of which remain untouched), the Kindle embraces a return-to-basics philosophy. With intuitive gestures mimicking the act of reading a physical book – a swipe to turn a page, a tap to access the library – it offers convenience without abandoning the familiar. In this way, it bridges the gap, providing a comfortable digital reading experience reminiscent of traditional books.&lt;/p&gt;
+
+&lt;p&gt;But what elevates the Kindle beyond just being user-friendly is its instant dictionary feature. Think about those moments when you’re immersed in a novel and then suddenly encounter a word that leaves you puzzled. With the Kindle, deciphering that word is as simple as a press-and-hold. Imagine applying this utility to other tech contexts. For example, picture Grandma tapping on words like “Cloud” or “Streaming” and getting instant, jargon-free info. Many older adults have shared with our team that they often feel thrown off by unfamiliar tech lingo, so they could benefit immensely from a tool that demystifies terms on the go.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/kindle-2.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      Dictionary, demystify
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Additionally, the Kindle’s onboarding process is nothing short of graceful. New device introductions can be daunting for many, but the Kindle’s built-in tutorials strike the right balance. They’re present, ready to guide when needed, but they don’t impose. It’s similar to having a patient teacher by your side, assuring you that there’s no rush, and you can learn at your own pace. This respect for the user’s journey, especially for those who might not be digital natives, is a significant nod to inclusivity in design.&lt;/p&gt;
+
+&lt;p&gt;Kindle’s intuitive features are incredibly inspiring for our team. As we shape our future designs, we will be sure to draw from Kindle’s simplicity and elegance.&lt;/p&gt;
+
+&lt;h3 id=&quot;coles-words-on-word&quot;&gt;Cole’s Words on Word&lt;/h3&gt;
+
+&lt;p&gt;Throughout our interviews, time and time again we saw older adults saying that one of the few technologies they use is Microsoft Word. Admittedly, this is not a huge surprise. We’ve all seen grandparents use it to type up instructions or keep a list of some important information. What might not be so familiar is why Word has become a normal part of their tech tool box.&lt;/p&gt;
+
+&lt;p&gt;The primary factor for its wide adoption is because many people used it as an integral part of their job. One of our insights is that older adults struggle to learn new technology because it’s frustrating that it’s so easy for everyone else to use, but difficult for them to pick up. Obviously this annoyance does not foster a helpful learning mindset, and can artificially increase the perceived difficulty of understanding any tech. Fortunately (or unfortunately), when you’re at work, many things are incredibly frustrating, but you are of course still responsible for completing whatever task you’re given. This means that many older adults were forced to learn how to adopt this tool into their workflow.&lt;/p&gt;
+
+&lt;p&gt;This touches on another insight: Our people group has a small set of tasks or tools (related to tech) that they use, and they pretty much &lt;strong&gt;only&lt;/strong&gt; use those. Because they already know how to use Word, they continue to use it. When interviewing one of the residents of an assisted living facility I used to volunteer at, he told me that he uses Word for a multitude of things. Writing letters to his family, printing instructions on how to connect to the Wifi, tracking a todo list, etc. Some of these tasks work great with a document editor, but a todo list would be much better suited on a device you keep on you at all times, and where you can easily add/remove tasks. He expressed frustration about those exact considerations, but he already knows how to use Word, and the barrier to entry of learning an entirely new tool simply outweighs the benefit he thinks he’d gain.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/word-1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      The first words are always the hardest
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Admittedly, Word is not a foreign concept to our people group. Word is a computer’s analogy of a type writer and much of its UI is reminiscent of older technology that people are familiar with. The save icon is a floppy disk. When you press a key on your keyboard, it shows straight up on the screen exactly as you typed it. When you open up Word, it shows you your last used documents. It’s a very linear process that’s easy to follow. Everything that happens on screen is the result of a direct action the user took. These things resonate well with older adults because the context they had for interacting with technology in their youth was much more simple. Super complex screens displaying 100 options at once (most of which are just symbols) just wasn’t what they used 30-40 years ago.&lt;/p&gt;
+
+&lt;p&gt;Observing how older adults use Word and hearing their thoughts about it will give us a great foundation to begin thinking about considerations that should go into our product design.&lt;/p&gt;
+
+&lt;h3 id=&quot;ian-watches-smart-watches&quot;&gt;Ian Watches Smart Watches&lt;/h3&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/apple-watch-1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      Small device, big impact
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ian has never owned an Apple product, nor have they ever used a wearable. Still, based on rave reviews from one of the older adults they interviewed, they decided to check out an Apple Watch for this profile. The thing is a technological marvel.&lt;/p&gt;
+
+&lt;p&gt;Sarah (a pseudonym) uses her smart watch to track her steps, sleep, and heart rate throughout the day. She likes the interface because there’s nothing to it—the interface only affords one or two actions at a time, a constraint driven by the small size of the screen and single external button. She knows how to navigate to what she needs, and if she miss-clicks, it’s easy to go back to the previous screen by pressing the physical button. If the only mapping you know is that the button signifies ‘go back,’ then already you will be less afraid to experiment and can avoid decision paralysis.&lt;/p&gt;
+
+&lt;p&gt;Touching the screen provides instant haptic feedback to the wearer’s wrist. The home screen has app symbols identical to those on a phone, which provides a familiar conceptual model for the user. Unlike a phone, Fabio (another pseudonym) says he never needs to scroll through pages of apps, because all the functions he uses it for will fit on the default home screen. This is a reminder for us to make all of the standard options visible at one time (to avoid burying information in menus where it will never be found), and to trim down the functions to only the essentials, because more will create clutter while going unused.&lt;/p&gt;
+
+&lt;p&gt;The reason I call Apple’s smart watch a technological marvel is because it is integrated seamlessly with the phone to extend the device’s presence into even more of your sensory systems. Playing music on your Airpods? You can control it from your wrist. Leave your phone behind on the subway? Your watch will vibrate to alert you that it’s not on your body. There’s one last touch I have to mention: rotating the knob on the button scrolls the screen up and down; no need to swipe with a finger. The top of the knob is flush with the top of the screen, marking a natural signifier for what rolling it forwards or backwards might do.&lt;/p&gt;</content><author><name></name></author><category term="phase-1" /><summary type="html">These designs inspired us to create something truly exceptional.</summary></entry><entry><title type="html">Phase 2 Design Report</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/design-report" rel="alternate" type="text/html" title="Phase 2 Design Report" /><published>2023-09-22T04:00:00+00:00</published><updated>2023-09-22T04:00:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/design-report</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-2/design-report">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Now that we’ve learned about our users, this phase is all about proposing and prototyping a solution. We reflected on all the information we gathered in the prior phase to assess the needs of our users. We then came up with ideas and grouped them into similar categories. Themes that stood out to us, such as user cheat sheets, were the basis of our design sketches. We picked three sketches to consider more deeply before ultimately settling on one. We spent time solidifying this solution by creating a user flow diagram and making paper prototypes. Finally, we tested one of these prototypes with a potential user which provided us with insights for the next development phase. The following report documents this phase’s process in more detail.&lt;/p&gt;
+
+&lt;h2 id=&quot;needs-assessment-overview&quot;&gt;Needs Assessment Overview&lt;/h2&gt;
+
+&lt;p&gt;The interface should be familiar and easy to find so older adults can adopt it with little trouble. During interviews, we learned that older adults often do not know how to use most of the features of many software applications, including email, texting, banking, and word processing. Several people we talked to reference paper cheat sheets for tasks they do not do very often. Our software would make cheat sheets available in a familiar format for any new application or task at the click of a button. Hopefully, using our software would take the place of asking more tech-savvy people for help, which can feel embarrassing for older adults and make them feel incompetent.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/1.jpeg&quot; alt=&quot;Identifying user needs&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;portfolio-of-initial-design-ideas&quot;&gt;Portfolio of Initial Design Ideas&lt;/h2&gt;
+
+&lt;p&gt;Before we began making our ideas more concrete, we wanted to identify common themes in the struggles older adults face when working with existing interfaces. Once we knew what key highlights connect older adults, our team sat down individually and wrote general ideas that could address problems in the space we identified. Then we came together and tried to group similar ideas.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/2.png&quot; alt=&quot;Brainstorming with post-it notes&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Portfolio of ideas from our individual brainstorming&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Among these were an interactive physical calendar to help older adults remember key information throughout the week; a “super-format” that can be applied to all websites so the user interaction with it is always the same; or a cheat sheet generator that can tell users how to interact with their needed websites in a format they’re used to. While broad, these ideas are still at their core attempting to solve a lack of technological context that older adults generally have. This board was the origin of our 3 main ideas.&lt;/p&gt;
+
+&lt;h2 id=&quot;refinement--selection-process&quot;&gt;Refinement &amp;amp; Selection Process&lt;/h2&gt;
+
+&lt;p&gt;From our larger portfolio of ideas, the 3 solutions we chose to move forward with are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Consumer Reports:&lt;/strong&gt; a &lt;a href=&quot;https://www.consumerreports.org/&quot;&gt;Consumer Reports&lt;/a&gt;-style magazine with quantitative app comparisons and reviews, tips and tricks, and new app recommendations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Easy Mode:&lt;/strong&gt; a setting to create larger icons, bigger font, and fewer buttons on software to make it simpler to use.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cheat Sheets:&lt;/strong&gt; infographic-style explainers for applications, including keyboard shortcuts and paths to common actions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Before diving into our discussions, we outlined a few criteria that would be critical to our evaluation of each idea:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Alignment with the Primary Goal:&lt;/strong&gt; How closely does the solution align with our primary objective of simplifying technology use for older adults?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Impact:&lt;/strong&gt; Does the solution have the potential to make a significant positive difference in user experience?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Innovation:&lt;/strong&gt; Does the solution provide a fresh or unique approach, or does it reiterate existing solutions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trade Offs:&lt;/strong&gt; What are the pitfalls of each design and how would they unintentionally complicate technology for older adults or introduce unnecessary friction into the user experience?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With these criteria in mind, each team member made concept sketches for what each of these solutions could look like. We then reconvened as a group and discussed each solution in more detail, discussing how likely they are to realistically improve the usability of technology for older adults. We ended up eliminating Easy Mode and Consumer Reports.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/3.png&quot; alt=&quot;Paper prototypes&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Concept sketches for top 3 solutions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For Easy Mode, we felt that it would be difficult to specifically realize this over a broad spectrum of technology. It was over-scoped and wouldn’t allow us to go deep on user needs. Additionally, there are design accessibility guidelines that already exist to make certain interfaces “easier” to use, so we didn’t feel that this idea would make a big enough difference.&lt;/p&gt;
+
+&lt;p&gt;For Consumer Reports, we realized that while providing older adults a way to compare the ease of use of different technologies, it didn’t really address our main goal of directly making technology simpler for them to use. However, we spoke heavily about how helpful the tips and tricks would be, and ended up weaving that into our final idea.&lt;/p&gt;
+
+&lt;p&gt;We chose to proceed with the Cheat Sheets idea. We noticed many creative ways to incorporate cheat sheets into how older adults use technology, and we believed it would make a big and quick difference.&lt;/p&gt;
+
+&lt;h2 id=&quot;chosen-design-approach&quot;&gt;Chosen Design Approach&lt;/h2&gt;
+
+&lt;p&gt;Our chosen design is an operating system (OS) feature (for desktop or iPad) which gives users step-by-step instructions for tasks in various applications. An easily accessible button, always on display regardless of the screen’s status (or even as a physical button on the device), activates a small pop-up. This pop-up prompts the user to type in what they want to do. The software then uses a language model to interpret this input, translating user-friendly phrases like “I want to put numbers in front of the paragraphs” to application-specific terms like “Do you want to format the paragraphs as a numbered list?”. Subsequently, it highlights the necessary buttons for the user to click in sequence.&lt;/p&gt;
+
+&lt;p&gt;If we already know what the user wants to do, we know what keystrokes they need to press, and we have OS control, why don’t we just accomplish the task for them? The reason is twofold. First, it gives the user more agency, so they can make sure the correct thing is being done. Second, making the user follow the keystrokes themself will train them to better remember what to do the next time. In this way, our software is like training wheels for computer interfaces, which relates to our design goal of teaching older adults to become proficient with technology.&lt;/p&gt;
+
+&lt;h2 id=&quot;interaction-flow--storyboard&quot;&gt;Interaction Flow &amp;amp; Storyboard&lt;/h2&gt;
+
+&lt;p&gt;We broke down every interaction a user might have with our product, from downloading the plug-in to using it to find tools or shortcuts. The legend became our best friend during this process, helping us differentiate user actions from product responses, and marking key decision points.&lt;/p&gt;
+
+&lt;p&gt;Below is our final user interaction flow:&lt;/p&gt;
+
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvS91Hko4nKLfTHJqJOs5bh%2Fuser-interaction-flow-for-cheat-sheet%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DcCnOFuQNw3uHSnmt-1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Several crucial decisions shaped the flow. Here are a few that stood out to us:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Feedback-powered Guidance:&lt;/strong&gt; After user engagement, the product offers a feedback option in case the guide offered was not relevant. This system allows the product to provide new guides based on real-time user feedback, ensuring older adults can receive assistance in completing a task, even if they struggle to articulate what they need help with. The feedback mechanism should be very simple to avoid cluttering the interface.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Proactive Assistance:&lt;/strong&gt; Our product proactively suggests tools upon app or website access, preventing users from feeling disorientation. However, it’s essential to maintain subtlety to avoid overwhelming or making users feel like they are being constantly monitored.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The completed user interaction flow acted as a roadmap for our paper prototype. It also helped the team understand how the product and user interact with one another, keeping us all on the same page.&lt;/p&gt;
+
+&lt;h2 id=&quot;low-fidelity-paper-prototype&quot;&gt;Low-Fidelity Paper Prototype&lt;/h2&gt;
+
+&lt;p&gt;Our paper prototype is based on a backdrop of Google Docs, an example of an application certain older adults have described as confusing or overwhelming. We began with a screenshot and printed it out. Our user interaction begins by clicking or tapping on a floating icon in the bottom right corner when they need assistance.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/IMG_7216.JPG&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Pressing the button opens a popup on screen with a search bar and some options recommended based on past user questions and common functionality for the current software. The format of this popup will likely change, and we’ve discussed modeling it more like Microsoft’s Copilot with a sidebar to the right. Regardless, clicking or tapping one of the existing options will close the popup and launch a series of tooltips for tasks such as changing the font.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/IMG_7256.JPG&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/IMG_7254.JPG&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The search bar is powered by generative AI and can engage in natural language questions. It confirms the desired task and communicates instructions through tooltips that pop up on screen. For example, if a user asks how to change the font it will explain how to expand the font drop down and change a font. If the user asks for handwritten fonts, it will walk through the same process as before and then continue by recommending handwritten fonts.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/IMG_7253.JPG&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/IMG_7255.JPG&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;testing-outcomes--feedback&quot;&gt;Testing Outcomes &amp;amp; Feedback&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Testing Process &amp;amp; Users Involved&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We ran a paper prototype test with a user over Zoom. Of the multiple ways our product could look, we chose the version with a permanent sidebar and tooltips. We co-designed some of the language that would appear in the sidebar dialogue box and in the tooltips. The user suggested very verbose wording, such as “Click to the left of the lines you want to be numbered.” In the co-design, we also modified certain aspects of the interaction, including when the tooltips would appear and disappear and how the user would go back to a previous step.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/codesign_screenshot2.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Takeaways from User Testing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make the button for opening our software visible and friendly.&lt;/li&gt;
+  &lt;li&gt;Show all instructions in order in one place (for example, in the dialogue sidebar), so that it’s always clear which instruction comes next, in addition to providing tooltips.&lt;/li&gt;
+  &lt;li&gt;Only erase tooltips once all steps have been completed (where possible).&lt;/li&gt;
+  &lt;li&gt;Allow the user to erase tooltips in case they get in the way.&lt;/li&gt;
+  &lt;li&gt;When the user clicks a tooltip, it should automatically click the button the tooltip was pointing to.&lt;/li&gt;
+  &lt;li&gt;Allow the user to go back to previous steps.&lt;/li&gt;
+  &lt;li&gt;Give the tooltips well-defined arrows so the user can tell what it’s pointing to.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Areas of Improvement Identified&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One concern we have going forward is that we want the interface to be as simple and minimalistic as possible in order to be usable. This means we might have to forgo features like explicit user feedback in order to make it more usable. We have to remember that we are billing this software as an accessibility plug-in, which means it may not make sense to be as full-featured or complex as we might have imagined.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-insights--lessons-learned&quot;&gt;Key Insights &amp;amp; Lessons Learned&lt;/h2&gt;
+
+&lt;p&gt;We saw that older adults lack the technological context that a lot of designers assume people using their products will have. This disconnect makes using software a passively (or actively) annoying experience, and makes it difficult to learn new tools since they can’t abstract their knowledge from one app to another. This seems to be the most central struggle, from which stems a myriad of others that inhibit older adults’ abilities to take advantage of many software tools available now.&lt;/p&gt;
+
+&lt;p&gt;Our team had a lengthy discussion about how well a solution to this on each platform would serve our user group’s core issue. A browser extension might work great if all the relevant information you need is contained in the browser, but what if you need help with Word? A physical magazine of cheat sheets where people can bookmark or tear out the pages they think are relevant, but how do you search through thousands of pages? Each of our platforms had their pros and cons, but an unintended trend was emerging–the core feature/thing our solution &lt;strong&gt;needed&lt;/strong&gt; to do: Display information that is relevant to what the user is doing. In any medium we develop, it’s vital that users can access and use information relevant to their tasks. Users open a new app or website with a specific task in mind. For a cheat sheet to be effective, it must assist them in achieving that particular goal and reduce any confusion in their experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-sam&quot;&gt;Conclusion (Sam)&lt;/h2&gt;
+
+&lt;p&gt;Summary of Report Findings&lt;/p&gt;
+
+&lt;p&gt;Next Steps &amp;amp; Recommendations&lt;/p&gt;
+
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
+
+&lt;h3 id=&quot;effort-chart&quot;&gt;Effort Chart&lt;/h3&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/design-report/4.png&quot; alt=&quot;Effort chart&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;</content><author><name></name></author><category term="phase-2" /><summary type="html">A full report of our design work in Phase 2</summary></entry><entry><title type="html">Consent Narrative</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/consent-narrative" rel="alternate" type="text/html" title="Consent Narrative" /><published>2023-09-21T15:19:00+00:00</published><updated>2023-09-21T15:19:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/consent-narrative</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-1/consent-narrative">&lt;p&gt;Hello! We’re a team of user experience design students at Olin College of Engineering in Needham aiming to make technology more user-friendly for older adults. Our project focuses on simplifying the digital experience, whether it’s navigating smartphone features or managing passwords and logins. We’ve partnered with North Hill Retirement Community for this study, and we’d love to have a chat with you.&lt;/p&gt;
+
+&lt;p&gt;Your firsthand insights would be invaluable in helping us understand what works for you and what doesn’t when it comes to technology. There are no risks involved, just a few brief interviews. Plus, you’ll have a direct impact on creating a more accessible digital world!&lt;/p&gt;
+
+&lt;p&gt;For any questions or concerns, feel free to contact us at [email]. Our head faculty, Amon Millner, can also be reached at amillner@olin.edu. We appreciate your time and look forward to hopefully working with you!&lt;/p&gt;
+
+&lt;p&gt;Kristin, Ian, Cole, Kat, and Sam from Olin&lt;/p&gt;</content><author><name></name></author><category term="phase-1" /><summary type="html">Before we can collect data ethically, we need to get consent from our participants. Here&apos;s what we sent them.</summary></entry></feed>
