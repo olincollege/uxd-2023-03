@@ -10,4 +10,4 @@ Click on a link below to visit the website for that team's project.
 
 [Big Scary Dragon](https://olincollege.github.io/uxd-2023-03/big-scary-dragon)
 
-[Hippogriff](https://olincollege.github.io/uxd-2023-03/team-hippogriff)
+[Hippogriff](https://olincollege.github.io/uxd-2023-03/hippogriff)
