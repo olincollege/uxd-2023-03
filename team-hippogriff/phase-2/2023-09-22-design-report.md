@@ -13,7 +13,7 @@ The interface should be familiar and easy to find so older adults can adopt it w
 
 Before we began making our ideas more concrete, we wanted to identify common themes in the struggles older adults face when working with existing interfaces. Once we knew what key highlights connect older adults, our team sat down individually and wrote general ideas that could address problems in the space we identified. Then we came together and tried to group similar ideas.
 
-![Brainstorming](../images/design-report/2.jpeg)
+![Brainstorming](../images/design-report/2.png)
 
 _Portfolio of ideas from our individual brainstorming_
 
@@ -37,7 +37,7 @@ Before diving into our discussions, we outlined a few criteria that would be cri
 
 With these criteria in mind, each team member made concept sketches for what each of these solutions could look like. We then reconvened as a group and discussed each solution in more detail, discussing how likely they are to realistically improve the usability of technology for older adults. We ended up eliminating Easy Mode and Consumer Reports.
 
-![Paper prototypes](../images/design-report/3.jpeg)
+![Paper prototypes](../images/design-report/3.png)
 
 _Concept sketches for top 3 solutions_
 
@@ -85,7 +85,7 @@ Pressing the button opens a popup on screen with a search bar and some options r
 
 The search bar is powered by generative AI and can engage in natural language questions. It confirms the desired task and communicates instructions through tooltips that pop up on screen. For example, if a user asks how to change the font it will explain how to expand the font drop down and change a font. If the user asks for handwritten fonts, it will walk through the same process as before and then continue by recommending handwritten fonts.
 
-![Low-fi 4](../images/design-report/1.jpeg/IMG_7253.JPG)
+![Low-fi 4](../images/design-report/IMG_7253.JPG)
 ![Low-fi 5](../images/design-report/IMG_7255.JPG)
 
 
@@ -95,7 +95,7 @@ The search bar is powered by generative AI and can engage in natural language qu
 
 We ran a paper prototype test with a user over Zoom. Of the multiple ways our product could look, we chose the version with a permanent sidebar and tooltips. We co-designed some of the language that would appear in the sidebar dialogue box and in the tooltips. The user suggested very verbose wording, such as “Click to the left of the lines you want to be numbered.” In the co-design, we also modified certain aspects of the interaction, including when the tooltips would appear and disappear and how the user would go back to a previous step.
 
-![Co-design](../images/design-report/1.jpeg/codesign_screenshot2.png)
+![Co-design](../images/design-report/codesign_screenshot2.png)
 
 **Key Takeaways from User Testing**
 
@@ -129,4 +129,4 @@ Next Steps & Recommendations
 
 ### Effort Chart
 
-![Effort Chart](../images/design-report/4.png) 
+![Effort Chart](../images/design-report/4.png)

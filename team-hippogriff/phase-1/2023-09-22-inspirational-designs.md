@@ -60,7 +60,7 @@ That’s not to say there aren’t well designed additional tools. There are sev
 
 Under the first icon, signified with the characters Aa, are standard formatting tools such as headings, bold text, bullets, etc. The next two icons, the checklist and table, don’t require any sort of submenu. Onced tapped they insert the desired element directly into the note. While the stylization of these elements isn’t customizable, it doesn't need to be. Instead, the desired functions are accessed with minimal interaction. Menus that lead into other menus or submenus with an abundance of superfluous options were often cited in our interviews as stressful and frustrating. This minimalist approach cuts down on this issue significantly.
 
-![Apple notes 2](../images/inspirational-designs/aple-notes-2.jpeg)
+![Apple notes 2](../images/inspirational-designs/apple-notes-2.jpeg)
 
 Furthermore, these first three icons correspond to the features that our users expressed they used the most. Specifically, the checklist is very popular for shopping and todo lists.
 
@@ -75,7 +75,7 @@ In our design work this semester we want to create a similar model of stripped, 
 
 We exist in an era where technology is defined by its endless features, making it easy for the user experience to take a backseat. This oversight becomes even more pronounced for older adults who might find themselves navigating an alien landscape with each new device. Yet, in this complex digital ecosystem, Amazon's Kindle emerges as a rare example of thoughtful design.
 
-![Kindle 1](../images/inspirational-designs/kindle-1.png.png)
+![Kindle 1](../images/inspirational-designs/kindle-1.png)
 
 The first thing that strikes you about the Kindle is its refreshing simplicity. Unlike devices that overwhelm users with a multitude of functions (many of which remain untouched), the Kindle embraces a return-to-basics philosophy. With intuitive gestures mimicking the act of reading a physical book – a swipe to turn a page, a tap to access the library – it offers convenience without abandoning the familiar. In this way, it bridges the gap, providing a comfortable digital reading experience reminiscent of traditional books.
 
