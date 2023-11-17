@@ -3309,6 +3309,13 @@ input, select, textarea {
 						box-shadow: none;
 					}
 
+					#nav ul li a.back {
+						background-color: #625396;
+						box-shadow: none;
+						color:#ffffff
+						
+					}
+
 		#nav.alt {
 			position: fixed;
 			top: 0;
