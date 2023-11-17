@@ -26,6 +26,8 @@ and needs. By offering two distinctive views for the same overall purpose, our
 design addresses diverse viewing preferences and makes exploring events an
 enjoyable endeavor.
 
+![Bubble and Map View](/mew/media/refinement_report/bubble_map_toggle.jpg)
+
 The user should then flow from viewing a variety of events to selecting specific
 ones that interest them. This will take them to a screen to view more details
 about the event and interact with it (bookmarking for later viewing, joining the
@@ -52,25 +54,25 @@ with and then transitioned to implementing our designs using Figma.
 
 ### 1. Down-Scoping of the Project
 
-During the Figma design phase, we worked on finalizing key aspects, such as the
+During the Figma design phase, we focused on finalizing key aspects such as the
 organization of all elements within our design (main page, event page, map view,
 etc. ). This iterative process allowed us to refine our vision and ensure a
 cohesive and user-friendly interface. Part of this refinement involved cutting
 down on the list of potential features and behaviors we wanted our app to have.
 
-Two shortcomings of our app we previously discovered were the inconvenience of
-downloading yet another app, and possible dexterity issues with the event
-browsing screen (using the pinching motion to make each bubble bigger or
-smaller). We aimed to improve our app with these concerns in mind. First and
-foremost, we felt that we could engage users by maintaining a clean and
-accessible design, making it more appealing to download our app. Secondly, we
-actively considered feedback from team discussions and from our potential users
-regarding the functionality of resizing bubbles for the user to indicate their
-interest in the event. We ultimately decided to remove this functionality; it
-posed too much of a burden on the user to input this information in this way and
-also detracted from the overall purpose of the event browsing screen. The
-refactored design has bubbles with a set size to reflect the user’s predicted
-interest in the event (larger bubbles = predicted more interest).
+Two previously-identified shortcomings of our app were addressed during this
+phase. The first pertained to the inconvenience of requiring users to download
+yet another app. To mitigate this concern, our approach emphasized an engaging,
+clean, and easily accessible design, enhancing the app's appeal for potential
+downloads. The second challenge involved potential dexterity issues with the
+event browsing screen, particularly concerning the pinching motion used to
+resize bubbles, which we originally wanted as a way for users to specify their
+level of interest in various events. In response to feedback from team
+discussions and potential users, we decided to eliminate this functionality.
+Resizing bubbles introduced unnecessary complexities for users and detracted
+from the primary purpose of the event browsing screen. The refined design now
+involves bubbles of fixed sizes representing the user's predicted interest in
+the event (larger bubbles = predicted more interest).
 
 ### 2. Response to Paper Prototyping User Feedback
 
@@ -110,6 +112,8 @@ for efficient filtering. Emphasizing the utility of a calendar and category
 filtering feature, we envisioned a user-friendly experience where event details
 are accessible without entering each event individually.
 
+![LA Events website categories](/mew/media/refinement_report/la_events_categories.jpg)
+
 Addressing the onboarding process, we considered an approach where users are
 asked to specify initial interests on the screen, and then are taken through a
 guided tutorial through the app’s main features (toggling between the bubble and
@@ -117,26 +121,31 @@ map views, and RSVPing to an event). Additionally, we explored the concept of
 facilitating group chats by allowing users to choose people to connect with from
 the event attendee list, a suggestion that resonated with the team. We also
 created an app logo to emphasize the branding and legitimacy of our design,
-crediting Sela for her contribution. Navigating through event details and chats
-prompted further discussion. We weighed the options of having a dedicated button
-in the navigation bar for easy access, or accessing the chat feature through the
-profile screen, as we weren’t sure the chat feature should be highlighted to the
-same degree as a core feature like viewing events. We also explored (through
-more paper prototyping) various designs that meshed our bubble branding with a
-functional and intuitive interface for accessing group chats. A design involving
-horizontal lists of bubbles on the profile screen, akin to Instagram’s
-Highlights feature, gained traction. Another pivotal topic was the inclusion of
-a map feature. We recognized that it fulfilled user desires, but there were
-varying opinions regarding its level of necessity and preferred placement. The
-team explored potential integration options, such as a map icon in the
-navigation bar or a toggle between bubble and map views. Turning to the app’s
-aesthetic aspects, the team recognized the need to finalize a color scheme. We
-each individually implemented a few designs in Figma with varying color schemes,
-and then posed a quick survey to our potential users through an Instagram story
-to get overall feedback. A sleek blue and purple theme won by a significant
-amount.
+crediting Sela for her contribution.
 
-**INSERT IMAGES**
+Navigating through event details and chats prompted further discussion. We
+weighed the options of having a dedicated button in the navigation bar for easy
+access, or accessing the chat feature through the profile screen, as we weren’t
+sure the chat feature should be highlighted to the same degree as a core feature
+like viewing events. We also explored (through more paper prototyping) various
+designs that meshed our bubble branding with a functional and intuitive
+interface for accessing group chats. A design involving horizontal lists of
+bubbles on the profile screen, akin to Instagram’s Highlights feature, gained
+traction.
+
+Another pivotal topic was the inclusion of a map feature. We recognized that it
+fulfilled user desires, but there were varying opinions regarding its level of
+necessity and preferred placement. The team explored potential integration
+options, such as a map icon in the navigation bar or a toggle between bubble and
+map views.
+
+Turning to the app’s aesthetic aspects, the team recognized the need to finalize
+a color scheme. We each individually implemented a few designs in Figma with
+varying color schemes, and then posed a quick survey to our potential users
+through an Instagram story to get overall feedback. A sleek blue and purple
+theme won by a significant amount.
+
+![Color scheme results](/mew/media/refinement_report/color_scheme_voting.jpg)
 
 Finally, filters were identified as crucial for enhancing user experience, to
 tailor events only to specific locations (regions), activity types/categories,
@@ -208,7 +217,7 @@ stating that it was easier to parse information quickly in a list. Based on this
 feedback, we want to explore ways to offer a non-graphical, yet still visually
 appealing, way to process the events posted in our app, such as a list view.
 
-**INSERT IMAGE**
+![Dump Ball event details](/mew/media/refinement_report/dump_ball_details.jpg)
 
 Adding to that, things that we hadn’t thought would be a problem ended up being
 a concern during the heuristic evaluations. For example, our reviewers mentioned
