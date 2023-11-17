@@ -110,78 +110,87 @@ for efficient filtering. Emphasizing the utility of a calendar and category
 filtering feature, we envisioned a user-friendly experience where event details
 are accessible without entering each event individually.
 
-Addressing the onboarding process, we considered a novel approach where users
-specify initial interests on the screen and a tutorial on how to use the app.
-Additionally, we explored the concept of facilitating group chats by allowing
-users to choose friends from the event attendee list, a suggestion that
-resonated with the team. In terms of aesthetics, we created our app’s logo,
-crediting Sela for her contribution.
+Addressing the onboarding process, we considered an approach where users are
+asked to specify initial interests on the screen, and then are taken through a
+guided tutorial through the app’s main features (toggling between the bubble and
+map views, and RSVPing to an event). Additionally, we explored the concept of
+facilitating group chats by allowing users to choose people to connect with from
+the event attendee list, a suggestion that resonated with the team. We also
+created an app logo to emphasize the branding and legitimacy of our design,
+crediting Sela for her contribution. Navigating through event details and chats
+prompted further discussion. We weighed the options of having a dedicated button
+in the navigation bar for easy access, or accessing the chat feature through the
+profile screen, as we weren’t sure the chat feature should be highlighted to the
+same degree as a core feature like viewing events. We also explored (through
+more paper prototyping) various designs that meshed our bubble branding with a
+functional and intuitive interface for accessing group chats. A design involving
+horizontal lists of bubbles on the profile screen, akin to Instagram’s
+Highlights feature, gained traction. Another pivotal topic was the inclusion of
+a map feature. We recognized that it fulfilled user desires, but there were
+varying opinions regarding its level of necessity and preferred placement. The
+team explored potential integration options, such as a map icon in the
+navigation bar or a toggle between bubble and map views. Turning to the app’s
+aesthetic aspects, the team recognized the need to finalize a color scheme. We
+each individually implemented a few designs in Figma with varying color schemes,
+and then posed a quick survey to our potential users through an Instagram story
+to get overall feedback. A sleek blue and purple theme won by a significant
+amount.
 
-Navigating through event details and chats prompted further discussion. We
-weighed the options of accessing the chat feature through the profile or a
-dedicated button in the navigation bar. The idea of a list of even bubbles on
-the profile screen, akin to Instagram’s Highlights, gained traction. A pivotal
-topic was the inclusion of a map feature, with team members expressing varying
-opinions on its necessity and preferred placement. The team explored potential
-integration options, such as a map icon in the navigation bar or a toggle
-between bubble and map views.
+**INSERT IMAGES**
 
-Turning to the app’s aesthetic aspects, the team recognized the need to finalize
-a color scheme. There was consensus on the possibility of offering multiple
-themes, both initially and in settings, with some themes potentially being
-monetized through either one-time purchases or a subscription model. Finally,
-filters were identified as crucial for enhancing user experience, including
-location (regions), activity types/categories, and age requirements. As we move
-forward, the team is committed to refining selected designs, specifically
-establishing a cohesive color scheme that aligns with the app’s purpose of
-facilitating connections for young professionals in a new city. We chose a
-greyscale prototype for the heuristic evaluation to pinpoint the strengths and
-weaknesses of flows and functionality rather than the aesthetic.
+Finally, filters were identified as crucial for enhancing user experience, to
+tailor events only to specific locations (regions), activity types/categories,
+age requirements, and more. As we move forward, we are committed to refining our
+designs, specifically establishing a cohesive color scheme that aligns with the
+app’s purpose of facilitating connections for young professionals in a new city.
 
 ### 4. Responses to Heuristic Evaluation Feedback
 
-The heuristic evaluation feedback highlights several positive aspects of the
-application, such as a simple interface for event pages and seamless integration
-of maps and social media. However, concerns were raised, including confusion
-about the purpose and aesthetics of the bubble view, limitations in chat
-features, and a need for more flexibility. The evaluation identified various
-issues, ranging from visibility of system status to user control and freedom.
-Several recommendations for improvement were provided, including addressing
-inconsistencies in the interface, implementing error prevention measures,
-enhancing flexibility and efficiency, and improving the aesthetic design. Users
-also needed more clarity on certain features, such as the meaning of bubble
-sizes. Additionally, concerns were raised about user privacy and the integration
-of external features like calendars.
+We implemented a greyscale Figma prototype for the heuristic evaluation to
+pinpoint the strengths and weaknesses of flows and functionality rather than the
+aesthetic. The idea was that we didn’t want the feedback to focus on aesthetics
+just yet; we wanted to make sure we really nailed down the intuitive-ness of our
+intended interactions and the flow of the app.
 
-With these concerns identified, we will be making the necessary changes to our
-design. Our most important priority is defining the bubble rules and emphasizing
-what makes them valuable compared to a map. Additionally, we will be clearly
-defining each feature of our app, like the difference between saving an event
-versus joining a chat versus RSVPing to an event. Other changes that will be
-made are picking a color scheme, giving the user a way to unRSVP to an event or
-leave a chat, creating a list view of the events, and adding filter and search
-buttons to give users more flexibility.
+The heuristic evaluation feedback highlights several positive aspects of the
+application, such as a simple interface for event pages and the seamless
+integration of maps and social media. However, several important concerns were
+raised regarding confusion about the purpose of the bubble view, a desire for a
+more standardized list view for browsing events, and limitations in chat
+features. The feedback recommended improving the design by explicitly explaining
+the meaning of bubble sizes in the event browser view, having info/help buttons
+on each page to refresh users on the app features, and making it clearer on how
+to interact with certain aspects of group chats such as leaving one.
+Additionally, concerns were raised about user privacy and safety (since the app
+involves meeting what are essentially strangers), and the integration of
+external tools like calendars. With these concerns identified, we plan to
+discuss how to address them and make the necessary changes to our design. Our
+most important priority is defining the bubble rules and emphasizing their value
+compared to the map view. Additionally, we will be clearly defining each feature
+of our app, like the difference between saving an event versus joining a chat
+versus RSVPing to an event. Other changes that will be made are implementing our
+chosen color scheme, giving the user a way to unRSVP to an event and leave a
+chat, creating an additional list view of the events, and adding filter and
+search buttons in all views to give users more flexibility.
 
 ## Navigating Choices: The Tradeoffs Made in Bringing it Online
 
 Bringing our paper prototype online had distinct advantages in understanding
-user interactions with the app. By bringing our prototype online, we were able
-to clearly map out the interactions we wanted users to have with our app, giving
-us a clearer understanding of possible pain points and frustrations users might
-have. By shifting, adding, and removing visual features, we learned how
+user interactions with the app. By having an online prototype, we were able to
+clearly map out the interactions we wanted users to have with our app, giving us
+a clearer understanding of possible pain points and frustrations users might
+have. By shifting, adding, and removing visual features, we could explore how
 different designs and configurations would impact a user's experience much
 faster than we could with a paper prototype.
 
 However, there were some negative consequences of bringing our prototype online.
-Transitioning a paper prototype to a virtual medium demands thoughtful
-consideration of visual elements, which can be time-consuming. Decisions about
-colors, fonts, and overall design aesthetics become critical, often requiring
-sacrifices in time and effort that could otherwise be devoted to other aspects
-of development or testing. Additionally, interacting with an app on a computer
-offers distinct functionalities, such as hover actions, that aren’t mirrored in
-mobile interactions. This discrepancy may create a divergence between the
-intended user experience and the actual experience, necessitating additional
-adaptations and adjustments to ensure coherence across different devices.
+Transitioning to a virtual medium demanded thoughtful consideration of visual
+elements, which was rather time-consuming. Decisions about colors, fonts,
+spacings, and overall design aesthetics became critical, and anything less than
+pixel-perfect became much more obvious. Additionally, interacting with an app on
+a computer offers distinct functionalities, such as hover actions, that aren’t
+mirrored in mobile interactions. This discrepancy may cause us to overlook
+design flaws that are present in the actual experience.
 
 ## Unveiling Key Insights: Examining Supported Evidence in the Current Phase
 
@@ -189,16 +198,15 @@ During this phase, we realized that what may seem intuitive to us is not
 necessarily the same for individuals who haven’t invested as much time in our
 product. For example: the bubble view. Our reviewers wondered what the purpose
 of the bubble view served if there was already a map view, which some of them
-viewed as more intuitive and less violating to the eyes. Whereas in our paper
-prototype, users only had the bubble view, adding the map view here actually
-reduced the uniqueness of the bubble view. Users could not determine the value
-of using one view over the other. Additionally, there was confusion about
-whether the bubbles’ size or color had any significant meaning or if it was just
-for aesthetic purposes. A couple of reviewers also noted that they actually
-prefer seeing information in a more standardized, plain text format. They find
-it easier to read information than interact with graphics, which is incredibly
-valuable to know. We want to find a way to provide a non-graphical way to
-process the events posted in our app, such as a list view.
+viewed as more intuitive and less violating to the eyes. Adding the map view
+actually seemed to reduce the uniqueness and value of the bubble view.
+Additionally, there was confusion about whether the bubbles’ size or color had
+any significant meaning, or if it was just for aesthetic purposes. A couple of
+reviewers also noted that they actually preferred seeing information in a more
+standardized, plain list format rather than interacting with cool graphics,
+stating that it was easier to parse information quickly in a list. Based on this
+feedback, we want to explore ways to offer a non-graphical, yet still visually
+appealing, way to process the events posted in our app, such as a list view.
 
 **INSERT IMAGE**
 
@@ -211,25 +219,29 @@ button; however, they were unsure as to where it saves the event.
 
 ## Project Inquiry: Exploring Unanswered Questions and Acknowledging Shortcomings
 
-Regarding the earlier point about the confusion revolving around the bubble
-view, the simple solution would be to drop the bubble view and pursue refining
-the map view; however, the bubble view has been vital to the identity of our
-app, so we plan to move forward and investigate the design rules of the bubbles
-(size, color, placement, etc.) and what makes them valuable compared to the map
-view. We plan to incorporate user feedback about having a non-graphical view as
-well, such as a list view, so users have truly diverse options that can serve
-their preferences for looking at information.
+Regarding the earlier point about the bubble view confusion, the simple solution
+would be to drop the bubble view and pursue refining the map view; however, the
+bubble view has been vital to the identity of our app, so we plan to move
+forward, investigate the design rules of the bubbles (size, color, placement,
+etc.), and solidify what makes them valuable compared to the map view. We plan
+to incorporate user feedback about implementing a non-graphical event browsing
+view as well, such as a list view. This will enhance the diversity of options,
+which will better support individual preferences for viewing information.
 
 There was also some confusion about what it means to save an event or join a
 chat, and what the relationship between those interactions is. Originally, we
-pondered what it meant to join a chat. Would the group chat be a space for
-people who planned on attending the event or could people who were curious and
-want to scout beforehand join as well? Would joining the chat automatically add
-you to joining the event? Also, when saving/joining an event, how would that
-appear for the user? Would the confirmation be in the form of the event being
-shown on the in-app calendar? Would there be a specific section with all of
-their saved/joined events? Would you automatically join the chat for the event?
+struggled a lot with deciding what it meant to join a chat. Would the group chat
+be a space for people who planned on attending the event, or could people who
+were curious and wanted to scout the vibe beforehand join as well? Would joining
+the chat automatically cause you to RSVP to the event? How would a user leave
+group chats? There is also a need for us to solidify aspects of the flow to
+browse and eventually join an event. When saving/joining an event, how would
+that appear for the user? Would the confirmation be in the form of the event
+being shown on the in-app calendar? Would there be a specific section with all
+of their saved/joined events? Would you automatically be added to the chat for
+the event?
+
 We plan to investigate these questions by engaging with potential users to
-understand their preferences and examining existing apps to identify a
-universally effective structure for organizing and storing elements such as
-events.
+better understand their preferences for these specific interactions. We also
+will continue drawing inspiration from existing apps to identify universally
+effective structures for organizing and storing elements such as events.
