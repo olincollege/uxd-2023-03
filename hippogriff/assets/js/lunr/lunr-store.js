@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "/uxd-2023-03/hippogriff/phase-2/feature-idea-description",
         "teaser": null
+      },{
+        "title": "Internal Design Refinement",
+        "excerpt":"Design Phase Introduction The first half of this phase of the project consisted of rendering our paper prototype into Figma. Once we had a full interactive user flow with multiple paths, we worked with our peers to gather feedback based on Jacobson’s usability heuristics. Changes from Paper Prototype to Figma...","categories": ["phase-3"],
+        "tags": [],
+        "url": "/uxd-2023-03/hippogriff/phase-3/internal-design-refinement",
+        "teaser": null
       }]
