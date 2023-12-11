@@ -34,4 +34,16 @@ var store = [{
         "tags": [],
         "url": "/uxd-2023-03/hippogriff/phase-3/internal-design-refinement",
         "teaser": null
+      },{
+        "title": "Usability Testing Plan",
+        "excerpt":"Formal Usability Study Plan Kat Canavan, Ian Eykamp, Cole Marco, Sam Mendelson, Kristin Xu We will test two different locations to launch the software on the computer, and we’ll measure the time it takes for users to re-open the software after closing it. We’ll A/B test putting the open button...","categories": ["phase-3"],
+        "tags": [],
+        "url": "/uxd-2023-03/hippogriff/phase-3/usability-testing-plan",
+        "teaser": null
+      },{
+        "title": "Usability Testing Results",
+        "excerpt":"General Overview We tested our Figma prototype with four older adult users, most of whom we had talked to in earlier phases. Overall, the reaction was very positive, and multiple users said they wish our product existed. Based on what we knew about how our users interact with software, we...","categories": ["phase-3"],
+        "tags": [],
+        "url": "/uxd-2023-03/hippogriff/phase-3/usability-testing-results",
+        "teaser": null
       }]
