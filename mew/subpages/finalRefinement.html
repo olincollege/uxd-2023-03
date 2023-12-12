@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Team Mew - Final Refinement</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+    <h1>Final Refinement</h1>
+
+    <h2>Bubble App: Redefining Social Connections for Young Professionals</h2>
+    <p>
+      The Bubble App is a mobile app that fosters building platonic
+      relationships through shared community experiences, catering towards young
+      professionals relocating to new and unfamiliar cities. The app’s intuitive
+      design offers three views for event browsing - a personalized and
+      aesthetic Bubble view, a location-centric Map view, and an
+      information-focused List view, appealing to a diverse set of user needs
+      and preferences.
+    </p>
+    <img src="/mew/media/final_report/appLogo.jpg" alt="App Logo" width="400" />
+    <p>Figure 1: App Logo</p>
+    <p>
+      The user’s journey through the app transitions from exploring to attending
+      events by allowing users to bookmark, join group chats, and RVSP to
+      events. User authentication ensures privacy, with limited profile data
+      displayed to other users. The app also aims to support the development of
+      meaningful connections by encouraging users to attend events and engage in
+      conversations through the chat feature.
+    </p>
+
+    <h2>Refining Brilliance: Crafting the Design Path</h2>
+    <p>
+      During the Figma final design phase, our focus centered on organizing key
+      high-level elements such as the main page, event page, and chats. We
+      wanted to ensure a cohesive and user-friendly interface. Iterative
+      refinement involving user tests allowed us to crystallize our vision while
+      trimming down the list of potential features for a more focused app.
+    </p>
+
+    <h3>
+      1. Response to Paper Prototyping User Feedback for Heuristic Evaluation
+    </h3>
+    <p>
+      Users responded positively to the use of bubbles for displaying events in
+      our Bubble app. The bubble interface was described as “fun” and appealing
+      to interact with. While this approach resonated well with the majority of
+      users, a subset expressed a desire for alternative views to explore events
+      further. Specifically, some users suggested considering a map view or a
+      calendar view as alternative options. We considered user feedback and
+      integrated a map view into our events page design and a calendar on the
+      navigation bar to view all the events after saving them. Incorporating
+      both the map view and a calendar offered a more valuable way to engage
+      with the events.
+    </p>
+
+    <h3>2. Responses to Team-Internal Deliberations</h3>
+    <p>
+      In our previous phrase, navigating event details and chats prompted
+      discussion on optimal access – considering a dedicated button or linking
+      through the profile screen. We also explored bubble-inspired designs for
+      group chat access, with a format resembling Instagram’s Highlights (Figure
+      2). The inclusion of a map feature sparked discussion on necessity and
+      placement, leading to considerations like a map icon in the navigation bar
+      or a toggle between bubble and map views. For aesthetics, a survey among
+      potential users revealed a sleek blue and purple theme as the favored
+      color scheme. Recognizing the importance of user customization, filters
+      were identified as crucial for tailoring events based on specific
+      criteria, such as locations, activity types, and age requirements.
+    </p>
+    <img
+      src="/mew/media/final_report/chat_inspiration.jpg"
+      alt="Chat Inspiration"
+      width="400"
+    />
+    <p>
+      Figure 2: Instagram Story Highlights (left) compared to Bubble chats
+      (right)
+    </p>
+
+    <h3>3. Responses to A/B Testing</h3>
+    <p>
+      After creating a formal usability plan and testing it with users, there
+      were common themes:
+    </p>
+    <p>
+      1. Map view: Users appreciate the map view for gauging event proximity but
+      desire clearer location indicators and a legend for color coding. Some
+      find it less intuitive than the list view.
+    </p>
+    <p>
+      2. List view: Generally favored for its clarity and comprehensive display
+      of information. Users appreciate its organization and straightforward
+      presentation.
+    </p>
+    <p>
+      3. Bubble View: Seen as aesthetically pleasing but questioned for its
+      practicality, with suggestions to include more event details without
+      compromising aesthetics. Some find it engaging but not as informative as
+      the list view.
+    </p>
+    <p>
+      4. Icons and Buttons: Some confusion was noted, particularly with the RSVP
+      and bookmark icons, suggesting the need for clearer signifiers or
+      tooltips.
+    </p>
+    <p>
+      5. Filtering and Searching: Users generally appreciate the functionality
+      but, in some cases, overlook icons on the bubble view.
+    </p>
+    <p>
+      In summary, the overall takeaway from user feedback on our design was the
+      aesthetic appeal of the Bubble view. The visually engaging nature of this
+      interface element was widely acknowledged, yet users also expressed a
+      collective desire for more detailed event information within the Bubble
+      view to enhance its practical utility. Clarity and intuitive design
+      emerged as the most important considerations, particularly in the realm of
+      icons and buttons, where users highlighted a need for clear signifiers and
+      tooltips to resolve confusions.
+    </p>
+    <p>
+      Another noteworthy observation was the variance in user preferences
+      regarding the default screen arrangement. While some users favored the
+      Bubble in the middle for its perceived centrality, others leaned towards
+      having it on the left, highlighting the importance of catering to diverse
+      user expectations in interface design.
+    </p>
+    <p>
+      Furthermore, users consistently placed value on comprehensive information,
+      particularly within the List view. Its organizational structure and
+      ability to present detailed information upfront resonated positively with
+      users. Simultaneously, the Map view earned appreciation for its visual
+      representation of event locations, emphasizing its contribution to the
+      overall user experience. These insights collectively underscored the
+      nuanced balance required between aesthetics, functionality, and user
+      preferences in refining the List-Bubble-Map interface for an optimized and
+      user-centric design.
+    </p>
+
+    <h2>Event Browsing</h2>
+    <p>
+      The event browsing page marks the start of the main flow of the app, as
+      the first screen that is displayed to the user upon loading into the app
+      (Figure 3). It consists of three different UIs, which can be navigated
+      through with toggle buttons at the top of the screen. Each UI caters to a
+      different set of needs and desires that we found our users expressed.
+    </p>
+    <img
+      src="/mew/media/final_report/bubble_view.jpg"
+      alt="Bubble View"
+      width="300"
+    />
+    <p>Figure 3: The Bubble view for event browsing</p>
+    <p>
+      With the current design, the Bubble view is the default event-browsing
+      view that users will first see upon opening the app (Figure 3). As a
+      landing page of the entire app, it tied the app’s bubble-themed brand into
+      an aesthetic and functional way to focus on events appealing to the user’s
+      personal interests. Events meeting the criteria specified in the filters
+      are displayed with random colors and in a random order within the screen.
+      The size of the bubble conveys important information: a larger bubble size
+      indicates more of an alignment between the event and the user’s predicted
+      interests. As a stylistic feature of this UI, the bubbles slowly and idly
+      scroll toward the top of the screen when left alone.
+    </p>
+    <p>
+      In the Bubble view, “filter” and “search” buttons were implemented to
+      further customize and streamline a user’s event browsing experience
+      (Figure 4). However, when tested by users, these two buttons frequently
+      fell under the radar. Only once the buttons were explicitly pointed out to
+      them were many of the usability testers able to recognize their value. In
+      response to this, many testers expressed wishes to make the buttons more
+      obvious to a first-time user. This highlighted an important issue with the
+      design of these buttons, especially when comparing them to the
+      effectiveness of similar buttons in the List view (Figure 5). Likely the
+      List view’s layout contributed to this; the search bar, sort-by dropdown,
+      and filter dropdown all take up quite a lot of space in the vertical
+      center of the screen, making them difficult to miss. However, in the
+      Bubble view, the search and filter buttons are quite small and on the
+      edges of the screen. They’re placed on the sides of the toggle button
+      group, which ends up overshadowing the much smaller, less colorful icons.
+    </p>
+    <img
+      src="/mew/media/final_report/bubble_view_buttons.jpg"
+      alt="Bubble View Search/Filter buttons"
+      width="300"
+    />
+    <p>
+      Figure 4: Search and Filter buttons on the left and right sides of the
+      toggle, respectively
+    </p>
+    <img
+      src="/mew/media/final_report/list_view_buttons.jpg"
+      alt="Bubble View Search/Filter buttons"
+      width="300"
+    />
+    <p>Figure 5: Search and Filter buttons in the List view</p>
+    <p>
+      To accompany the Bubble view are 2 alternative views: Map and List, which
+      are intended to be secondary to the Bubble view. The Map view contains a
+      scrollable map with small bubble markers to indicate where events are
+      occurring, but doesn’t initially contain any visible text (Figure 6).
+      Therefore, the Map view appeals to users who prioritize event location
+      over actual event details, perhaps if traveling was a limiting factor as
+      one A/B tester mentioned. Two other testers also expressed that they liked
+      seeing things happening around them, which made this view appealing.
+      Clicking on a map marker displays a hover card to preview event
+      information, and the user can then navigate to the actual Event Details
+      screen if the event appeals to them (Figure 6).
+    </p>
+    <img
+      src="/mew/media/final_report/map_view.jpg"
+      alt="Map View"
+      width="300"
+    />
+    <p>Figure 6: Map View</p>
+    <p>
+      Originally, the design consisted only of the Bubble and Map views (Figure
+      7). After conversations stemming from a heuristic evaluation of the
+      prototype, we recognized a desire for a third alternative view that listed
+      events and details in a more standard, text-based format. The general
+      sentiment was that the Bubble view was a visually pleasing and dynamic
+      version of a list, but it was difficult to quickly scan event names due to
+      the irregularity of the text placement. Additionally, users wanted to be
+      able to efficiently see a lot of the event’s information (date, time,
+      location, etc), which wasn’t suitable for the sleek look of the Bubble
+      view or the text-free design of the Map view, but was well-suited to a
+      standard list format.
+    </p>
+    <img
+      src="/mew/media/final_report/bubble_view_old.jpg"
+      alt="Original prototype Bubble View"
+      width="300"
+    />
+    <p>Figure 7: Original prototype with only Bubble and Map views</p>
+    <p>
+      Overall, the List view fulfills user desires to see a “less graphical”
+      layout of events (Figure 8). The design balances displaying plentiful
+      information in an easily-parsable format without overwhelming users with
+      the amount of text on the screen. Additionally, the search bar and filter
+      options are more obvious on this view than other views because this List
+      view relies entirely on user input while browsing, instead of algorithm
+      recommendations or location.
+    </p>
+    <img
+      src="/mew/media/final_report/list_view.jpg"
+      alt="List View"
+      width="300"
+    />
+    <p>Figure 8: List View</p>
+
+    <h2>Event Browsing: Toggle Buttons</h2>
+    <p>
+      Within the toggle button group, the Bubble view button is centered to
+      enforce its hierarchical position, while emphasizing that the other two
+      views are equally valid and useful alternatives. The order of the toggle
+      buttons was determined through discussions with usability test
+      participants, and a survey sent out to a large population of a similar
+      demographic as our target audience of young professionals (18 - 24
+      year-olds) (Figure 9).
+    </p>
+    <img
+      src="/mew/media/final_report/survey_results.jpg"
+      alt="Survey Results about toggle button order"
+      width="300"
+    />
+    <p>Figure 9: Toggle button order survey</p>
+    <p>
+      Out of the 4 choices, 34% of survey respondents indicated a preference for
+      the order “List - Bubble - Toggle”. Having a central Bubble view button
+      was significantly more popular; some participants referenced Snapchat as a
+      familiar UI, with the default/main view as the center button. From there,
+      the ideal order of the List and Map buttons was not so clear-cut based on
+      how close the survey results are. However, some of our design usability
+      testers offered clear reasons for supporting the List-Bubble-Map order:
+      having the List view as the leftmost option felt intuitive due to the
+      inherent left alignment of the displayed text in the UI.
+    </p>
+
+    <h2>Event Details</h2>
+    <p>
+      The event details page is what users see when they click on an event in
+      any event browsing view. From this page, users can read more information
+      about the event and choose to RSVP using the save button. This page is
+      fairly one-to-one with our original heuristic testing prototype, as users
+      found the layout conducive and the information provided sensible (Figure
+      10). During A/B testing, as well, users specifically pointed out that they
+      enjoyed seeing the “Who’s Going” list and profile pics of friends around
+      the event image.
+    </p>
+    <img
+      src="/mew/media/final_report/event_details.jpg"
+      alt="Event Details page"
+      width="300"
+    />
+    <p>
+      Figure 10: Current design (left) compared to original prototype (right)
+    </p>
+    <p>
+      The one point of confusion that users ran into was the RSVP button itself.
+      We used the bookmark icon, and depending on the specific word used to ask
+      a user to perform the task, they had difficulty realizing the bookmark was
+      the button they needed to press. When told to “save” an event, users
+      easily identified the bookmark as the correct option. When told to “join”
+      an event, the button’s purpose was less obvious. The buttons to add an
+      event to calendar and add yourself to an event chat both had icons that
+      were clear, but the bookmark with the intention of “mark interest in an
+      event” was nebulous.
+    </p>
+    <p>
+      Perhaps if we had developed a profile page where we intended users could
+      view the events they bookmarked, the function would be more clear.
+      However, for these runs we focused more heavily on the event browsing
+      features instead of expanding the technicalities of the joining-event
+      options.
+    </p>
+    <p>
+      Our future studies might include another round of testing with that
+      profile page to gauge user understanding. Alternatively, we might just
+      change the bookmark button to a more clarified “Join” or “Save” text
+      button, forgoing the aesthetic of icon-only buttons in favor of increased
+      user comparability.
+    </p>
+
+    <h2>Heuristic Evaluation Response:</h2>
+    <p>
+      Our violations of severity 3 or higher can be grouped into five different
+      categories: User controls, Error handling and prevention, Instruction
+      integration, Help and support, and Bug fixes and future features
+    </p>
+    <h3>User Controls:</h3>
+    <p>Two violations addressed user controls:</p>
+    <p>
+      1. Will there be a way to leave a chat if you no longer want to be
+      involved or joined by accident?
+    </p>
+    <p>
+      2. Will there be the typical chat features of muting notifications,
+      leaving, @-ing someone? Most of these I assume aren’t implemented because
+      it’s a prototype but I think this would be important to have so a user has
+      control over the chat group feature.
+    </p>
+    <p>
+      Like most chatting interfaces, the Bubble App’s design ensures that users
+      have full control over their participation. They will be able to leave
+      chats, mute notifications, and @ other users in a chat. Users will also be
+      able to un-RSVP and unsave events at any point after joining the
+      associated chat; nothing about joining a chat is binding to users.
+      Additionally, to make all users feel comfortable with using our app, they
+      will be able to block and report other users who make them uncomfortable.
+    </p>
+
+    <h3>Error Handling and Prevention:</h3>
+    <p>Two violations addressed error handling and prevention:</p>
+    <p>
+      1. None was included in the current prototype, what happens when people
+      try to make an event without a name? Or without participants? How would
+      you handle users who are trying to do things with the app that it is not
+      supposed to?
+    </p>
+    <p>
+      2. I don’t think there was any error prevention in the prototype but it
+      should definitely be implemented. Having checks for giving complete event
+      info, leaving chats if added mistakenly, etc should definitely be
+      included.
+    </p>
+    <p>
+      To maintain the quality of interactions, the app will not allow events to
+      be created without essential information like event name, location, and
+      time/date. There will be input validation implemented to prevent
+      submitting invalid data. Additionally, users can report inappropriate
+      content or behavior, ensuring the community remains aligned with the app’s
+      spirit. We’ve addressed the error prevention concerns by implementing
+      confirmation dialogs before submitting every destructive or important
+      interaction, such as when users RSVP to events, leave chats, delete an
+      event, etc.
+    </p>
+
+    <h3>Instruction Integration:</h3>
+    <p>One violation addressed instruction integration:</p>
+    <p>
+      1. How could you integrate your instructions in such a way that it
+      wouldn't be intrusive to a user experience? What other documentation could
+      you need? I imagine having instructions for event creation must be
+      important
+    </p>
+    <p>
+      We now offer an onboarding tutorial that guides new users through the
+      app’s features. The tutorial is non-intrusive and easy to follow along to.
+      Additionally, in the future, there will be a button that allows users to
+      replay this tutorial at any time.
+    </p>
+
+    <h3>Help and Support:</h3>
+    <p>One violation addressed help and support:</p>
+    <p>
+      1. I didn’t see a help button but… I don’t think it’s needed at this phase
+      of prototyping, especially considering other apps I’ve used will tend to
+      keep this information in the settings tab and I don’t think any team is
+      focusing on making a settings tab right now
+    </p>
+    <p>
+      Currently, we don’t have help buttons integrated in the app. Our future
+      design plans involve screens consisting of a lot of data (such as the
+      Event Browsing pages) having a small question mark icon in the top right
+      corner. Upon clicking this icon, a dialog will appear containing
+      information about the current screen’s purpose and behavior. This design
+      ensures users will always have a way to refresh their intuition about a
+      specific page without it obnoxiously detracting from the overall
+      experience.
+    </p>
+
+    <h3>Bug Fixes and Future Features:</h3>
+    <p>Two violations addressed bug fixes and future features:</p>
+    <p>
+      1. If I click on the chat button and cancel to go back to the event page
+      and then click the chat again it automatically adds me.
+    </p>
+    <p>
+      2. Mentions mutual friends? Is there a friending feature? If so, I’m
+      unclear on how to get there.
+    </p>
+    <p>
+      We’ve fixed the issue where clicking on the chat button automatically
+      added users without confirmation; the current design displays a
+      confirmation dialog before the user is added. Additionally, there will be
+      a friending feature similar to platforms like Facebook, allowing users to
+      connect and see when mutual friends attend the same events as them.
+      Although this feature wasn’t part of the prototype for the heuristic
+      evaluation, it’s an essential addition to the app’s functionality and will
+      be implemented in the full design.
+    </p>
+
+    <br />
+
+    <p>
+      Overall, the level 3+ violations illuminated many important features and
+      behaviors that were lacking in the app’s original design. Our adjustments
+      and additions in response to the violations aim to enhance user
+      experience, provide necessary guidance, and maintain a secure and
+      enjoyable environment within the app
+    </p>
+
+    <h2>Future Design Recommendations</h2>
+    <p>
+      Based on user feedback from our A/B testing, a notable comment highlighted
+      the dominance of the color blue on our platform, prompting us to address
+      and enhance color contrast for better accessibility and readability. To
+      achieve this, we can prioritize color combinations with a substantial
+      contrast ratio, ensuring that text and crucial elements visibly stand out
+      against the background. Additionally, considering the contrast between
+      text and its background, such as favoring dark text on a light background
+      or vice versa, can contribute to improved visibility; being mindful of
+      red-green combinations is crucial to accommodate users with color
+      blindness.
+    </p>
+    <p>
+      Thorough testing of color combinations across different devices is
+      essential, recognizing that colors may vary across screens. Adhering to
+      accessibility standards, particularly those outlined in WCAG, and aiming
+      for recommended contrast ratios will further enhance the user experience.
+      Actively incorporating user feedback from A/B testing allows us to gain
+      insights into specific concerns and suggestions. Providing options for
+      users to customize color schemes and adjust text sizes can address diverse
+      user needs. Leveraging color accessibility tools and conducting regular
+      tests for improvements are essential steps toward fostering a positive and
+      inclusive user experience on our platform.
+    </p>
+    <p>
+      To enhance accessibility, we tested our color scheme with settings for
+      color insensitivity and reduced blue sensitivity (Figure 11). Finding
+      sufficient contrast, we would like to do user testing with individuals
+      with visual disabilities for future design.
+    </p>
+    <img
+      src="/mew/media/final_report/color_blind_view.jpg"
+      alt="Design as seen with blue color blindness"
+      width="600"
+    />
+    <p>
+      Figure 11: Design seen without color-blindness (left) compared to with
+      blue color-blindness (right)
+    </p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
