@@ -1,6 +1,7 @@
-# Team Alicorn: Heuristic Evaluation
+# Team Alicorn: Heuristic Evaluation for Team Mew
 
-Lily Jiang, Helen Bauer, Sela Domkofski, Isa de Luis, Daniel Quinteros
+By Makenzi Fischbach, Luke Nonas-Hunter, James Davis, Samuel Cabrera, Shree
+Madan
 
 ## Overall Evaluation
 
