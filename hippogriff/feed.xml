@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml" rel="self" type="application/atom+xml" /><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/" rel="alternate" type="text/html" /><updated>2023-12-11T16:53:01+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml</id><title type="html">Team Hippogriff</title><subtitle>Website for UXD fall 2023 team Hippogriff designing software to help older adults with technology.</subtitle><entry><title type="html">Usability Testing Results</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results" rel="alternate" type="text/html" title="Usability Testing Results" /><published>2023-12-11T15:44:00+00:00</published><updated>2023-12-11T15:44:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results">&lt;h2 id=&quot;general-overview&quot;&gt;General Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml" rel="self" type="application/atom+xml" /><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/" rel="alternate" type="text/html" /><updated>2023-12-13T15:51:08+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/feed.xml</id><title type="html">Team Hippogriff</title><subtitle>Website for UXD fall 2023 team Hippogriff designing software to help older adults with technology.</subtitle><entry><title type="html">Final Refinement</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-4/final-refinement" rel="alternate" type="text/html" title="Final Refinement" /><published>2023-12-13T14:37:00+00:00</published><updated>2023-12-13T14:37:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-4/final-refinement</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-4/final-refinement">&lt;p&gt;During this phase we incorporated feedback from our evaluation, planned and executed four usability studies, and produced the final iteration of our prototype.&lt;/p&gt;
+
+&lt;p&gt;We made some significant changes in response to the feedback we were given by other students. These changes are as follows.&lt;/p&gt;
+
+&lt;h2 id=&quot;google-docs-changed-to-lastpass&quot;&gt;Google Docs Changed to LastPass&lt;/h2&gt;
+
+&lt;p&gt;We originally used Google Docs as the base software in our prototype since we had discussed word processors with several older adults. This turned out not to be the best choice for a demo precisely because it was already familiar, especially to our classmates. We also noticed that Google Docs has too many interactions for us to mock up in Figma and not being able to click most of the buttons on screen made it feel too unrealistic. Instead, we decided to use LastPass since it’s a complicated and unfamiliar interface. Since our testers really didn’t know how to use it they didn’t have to pretend to need our instructions. LastPass doesn’t have as many buttons as Google Docs and was easier to mock up as well.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/final-refinement/1.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;removed-scrollbars-and-added-chips&quot;&gt;Removed Scrollbars and added chips&lt;/h2&gt;
+
+&lt;p&gt;We removed sections with scroll bars and instead added smaller sections that are toggled with chips at the top. These chips allow us to hide unimportant information so as not to overwhelm users while making the experience cleaner. This is especially important for older adults who read everything on screen.&lt;/p&gt;
+
+&lt;h2 id=&quot;removed-icons&quot;&gt;Removed Icons&lt;/h2&gt;
+
+&lt;p&gt;We initially had icons next to every task, like a lightning bolt to take an action for you. We realized that this was much too cluttered and we removed these icons after our feedback session.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/final-refinement/2.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;redesigned-application-launch&quot;&gt;Redesigned Application Launch&lt;/h2&gt;
+
+&lt;p&gt;Since the the way the application is launched is the biggest barrier to helping our users, it was important to get this right. We started with a floating circle with a question mark but our classmates said they didn’t find this intuitive. We then came up with two more launch options and conducted usability tests to determine which was the most effective. In the end, we realized a persistent button in the taskbar with the words “Want Help?” was the best solution for several reasons. First, it’s consistent with launching apps from the taskbar. It’s also &lt;em&gt;always&lt;/em&gt; visible on screen. The words mean we don’t have to depend on an icon association, something we found some older adults struggle with.&lt;/p&gt;
+
+&lt;h2 id=&quot;unused-launch-options&quot;&gt;Unused Launch Options&lt;/h2&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/final-refinement/oop.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/final-refinement/3.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;final-version&quot;&gt;Final Version!&lt;/h2&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/final-refinement/4.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      
+
+    &lt;/figcaption&gt;&lt;/figure&gt;</content><author><name></name></author><category term="phase-4" /><summary type="html">The finishing touches!</summary></entry><entry><title type="html">Usability Testing Results</title><link href="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results" rel="alternate" type="text/html" title="Usability Testing Results" /><published>2023-12-11T15:44:00+00:00</published><updated>2023-12-11T15:44:00+00:00</updated><id>https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results</id><content type="html" xml:base="https://olincollege.github.io/uxd-2023-03/hippogriff/phase-3/usability-testing-results">&lt;h2 id=&quot;general-overview&quot;&gt;General Overview&lt;/h2&gt;
 
 &lt;p&gt;We tested our Figma prototype with four older adult users, most of whom we had talked to in earlier phases. Overall, the reaction was very positive, and multiple users said they wish our product existed. Based on what we knew about how our users interact with software, we designed redundancy into our application by displaying written instructions and highlighting the area on the screen to click. Users relied on both to figure out what to do. All users were able to complete the tasks of adding and manipulating passwords on a user-hostile password manager website, despite some of them having never used a password manager (and none having seen that specific website) before.&lt;/p&gt;
 
@@ -518,7 +570,7 @@
 &lt;p&gt;Under the first icon, signified with the characters Aa, are standard formatting tools such as headings, bold text, bullets, etc. The next two icons, the checklist and table, don’t require any sort of submenu. Onced tapped they insert the desired element directly into the note. While the stylization of these elements isn’t customizable, it doesn’t need to be. Instead, the desired functions are accessed with minimal interaction. Menus that lead into other menus or submenus with an abundance of superfluous options were often cited in our interviews as stressful and frustrating. This minimalist approach cuts down on this issue significantly.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/aple-notes-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+  &lt;img src=&quot;/uxd-2023-03/hippogriff/images/inspirational-designs/apple-notes-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
       Format undercover
 
     &lt;/figcaption&gt;&lt;/figure&gt;
