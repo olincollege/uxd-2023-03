@@ -46,4 +46,10 @@ var store = [{
         "tags": [],
         "url": "/uxd-2023-03/hippogriff/phase-3/usability-testing-results",
         "teaser": null
+      },{
+        "title": "Final Refinement",
+        "excerpt":"During this phase we incorporated feedback from our evaluation, planned and executed four usability studies, and produced the final iteration of our prototype. We made some significant changes in response to the feedback we were given by other students. These changes are as follows. Google Docs Changed to LastPass We...","categories": ["phase-4"],
+        "tags": [],
+        "url": "/uxd-2023-03/hippogriff/phase-4/final-refinement",
+        "teaser": null
       }]
